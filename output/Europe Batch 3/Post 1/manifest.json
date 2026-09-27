@@ -1,0 +1,43 @@
+{
+  "id": "EuropeBatch3-Post1",
+  "version": "v003",
+  "status": "REVIEW",
+  "human_approval": null,
+  "publication": null,
+  "renderer": "photo-overlay-v1",
+  "consent_status_declared": "APPROVED",
+  "font_mode": "approved offline fallback: Arial Black and Arial",
+  "dimensions": {
+    "instagram_4x5": [
+      1080,
+      1350
+    ],
+    "square_1x1": [
+      1080,
+      1080
+    ]
+  },
+  "files_sha256": {
+    "alt-text.md": "36f681ada29099e8aa8edde8065d486d706075d0f8ccbf6a2962311b066c748b",
+    "Brussels,_one_waffle_at_a_time.pdf": "a93efb1be7e383aabe10323a561e5860c76e52ae8e7ddd439fc6357215340460",
+    "caption.txt": "d87246d5d811567337b3345ab8dbee0127324ec3e932178a6973c18e7ed44745",
+    "contact-sheet.png": "57bc3de75234069a6c337d74abd26ff6731a44061fe6ecac78c6481a2ef5bf18",
+    "story.json": "b67b181d84f3decf86c66f32318be16ab052ea3b0e00efae21032cb63e06bd57",
+    "instagram_4x5/01.png": "3aac8100e5c346a49f3eae9fd479e6da92c56a3f6ebd3e7c1a380ac5a8e2a9b4",
+    "instagram_4x5/02.png": "bc06b1a5a04713674e27d039f648db369cad0f30ee206318285d9b8643950792",
+    "instagram_4x5/03.png": "769e49b52f11177d3d420f8f7b1aff73f55c09e771d9b532f0dde35d4a72e780",
+    "instagram_4x5/04.png": "0457958975b0b6e07b244172bcf0c2e9d77fd01810cde39086df12c08d381a1d",
+    "instagram_4x5/05.png": "7eea2b34920b61221dcc28e18ca3f74320f4af09592746fe8c1ee0ee25a8c129",
+    "instagram_4x5/06.png": "056d1dce229b2ce91767ded426bfbbfb53415d1c0511cfcff215ae9a3b7489a9",
+    "instagram_4x5/07.png": "eec6d2dd1e77845712a2366223f2dd18bbae96a763a120c7a3ad8f83478195fa",
+    "instagram_4x5/08.png": "908737ae2bf76e78b3ca17168efeed2253d4305f5e40f35717129c31dc7d7dc2",
+    "square_1x1/01.png": "5e712a5f92980fb7e127390a1580e577914a0a6108583058fac7e622140fc425",
+    "square_1x1/02.png": "4b2efb6d97a89678ab882572f69c2fceba702fa5e4907dad1b9d4af5b0f24f04",
+    "square_1x1/03.png": "4d991008264d63f31c91408a26cd367cdfe48f018c44e7571c09e662ccbb5c3d",
+    "square_1x1/04.png": "c61de564b8d44cea767512e30987506c27d428ec8d2a6ed8d7d59aa11873ba0c",
+    "square_1x1/05.png": "b23c7b232429dbf03fcef2dd6df36e002877f6bab0654adf8c31ace20c4c758f",
+    "square_1x1/06.png": "97edf337211b5b3c56611e6a9456354d420e07a2049049fdca87e70a600261fa",
+    "square_1x1/07.png": "3542afd14ac8041d5d94bb579cb8a28d5e82babe8e4d20b400e90082e670c715",
+    "square_1x1/08.png": "c1bd25084ca4d1a400e46994a263a44666fe0b0081e88755c165de4ac0e1876a"
+  }
+}

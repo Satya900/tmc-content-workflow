@@ -1,0 +1,51 @@
+{
+  "id": "TMC-20260927-CAR-001",
+  "version": "v001",
+  "status": "REVIEW",
+  "human_approval": null,
+  "publication": null,
+  "renderer": "marketing-text-v1",
+  "font_mode": "approved offline fallback: Arial Black and Arial",
+  "editable_source": "SVG layouts plus JSON copy. Editing SVG does not update JSON or rendered exports. Re-render canonical JSON to update exports.",
+  "dimensions": {
+    "portrait": [
+      1080,
+      1350
+    ],
+    "square": [
+      1080,
+      1080
+    ]
+  },
+  "files_sha256": {
+    "alt-text.md": "aa2cb4db864aca505e95eaadf2d8579320885de474a5046d3376d914610c88b6",
+    "caption.txt": "7f39f33135242c730ad11b956aabd99d07b2b42d462c1af840cdfe2236495fdc",
+    "contact-sheet.png": "43fc6ef44cfc8728f34e94d5c89909a259446d7d1cfb2c1339693424712ee128",
+    "linkedin-preview.pdf": "dbfd038ef028d3bc206bd956f5c09ab31b71a210178faf3b1946915c070f0c67",
+    "source.json": "d61feffd14164710d6fa7e2f4cf9768e0287a7db9d9752040ad25a0e146017d6",
+    "portrait/01.png": "8f7c4c802a66833c75ef73ce85e26a21abb345206dc35f71957e0e5115ef298c",
+    "portrait/01.svg": "f40e3be95d0333f868fa718732843d9011276e1571ec99332d9f6d7d4147b913",
+    "portrait/02.png": "63baa36018cae29218d0dcdc4ccc320a691d6c09b34adbf09175c0eed334417e",
+    "portrait/02.svg": "256f5123b11aa6af09239122aeaba8f90f5cefafefe08d912552f4c0f89653c5",
+    "portrait/03.png": "a1b336f895679e8e7a52ec372c88967e7751001bee2a7a201cae5dc198d6885c",
+    "portrait/03.svg": "2dbaab737ec18ee6372a5cc1b95a1ebb1afbc4adc6766bbe652ce4ea50b7cf66",
+    "portrait/04.png": "7a5aa845bbf07f1bd097c844668fef89c5a763a40d716677fda3ad3cde4650f3",
+    "portrait/04.svg": "4991c1cf93c25e1d10cb37f23c8a2879b13c4fa5bfcea38f5e9fd54564d11a85",
+    "portrait/05.png": "600d4cd2379c08b978c863bb26c2f0bb9364e1fa53458c380b25446f107bee3d",
+    "portrait/05.svg": "f5e70bc5bd54804ab0e7adcf2a9d46f11fd0e1ce436a6363447dd6cb00ad4fe2",
+    "portrait/06.png": "cb67affc932a54ce22607a4c1a99269e3719a735f188c3260407d98753122a5e",
+    "portrait/06.svg": "a9296ee66cfd70a4ab93a9bc00b1dfe82b1ffdf6f434e27a611f7706ec0d691d",
+    "square/01.png": "6ea293735fb335025e9b15046a05bf29b11de235a01c86f2221e674d9e3b3037",
+    "square/01.svg": "edc393ce334415814d861766ebb4a3e57b66221b23ea89056b1a60c6706f6e09",
+    "square/02.png": "bb93c82ca81690bcfe345cc76b5ede08c5f7f21b56c397635a79ec4257a728ae",
+    "square/02.svg": "ca41f5f870ae385a48a0b6c68b7e96563757d90a68c84fedaec78cd52e366fdf",
+    "square/03.png": "f799c84ef54e73374514f804932eeee8872b1278473beb3d8a3d7c76a8272eb3",
+    "square/03.svg": "f9a0742d4a005c424a1c005c7abe3f6b0c8d5841d12b799be36237ec2cd79fd7",
+    "square/04.png": "eccb0737b67327e82cde0c0b174465f3320c0027c3df44717ace2ad0587653f4",
+    "square/04.svg": "76fc96aeed4e26ddca85b6f1c9e15b4ac5f5aecbca56d4944bfa966d8d896be3",
+    "square/05.png": "2275785981f33d8dd26fca62e7b921de7e881dfa9a261bd387754ef93b3c31c7",
+    "square/05.svg": "d8efecd9d59010b418093e077e650b43f85feaf7e9e2fca9f9131872ce78a683",
+    "square/06.png": "6aa3ab76985cc7090a68e7eaee9c6d79605f1c8c3715ddc4bbd63146141e05a3",
+    "square/06.svg": "b075d6b5d7632a54177114efd179bb00f53bc73a398f982231583577741ac159"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "TMC-20260927-CAR-001",
+  "version": "v001",
+  "title": "Before choosing a school-trip destination",
+  "audience": "School principals",
+  "category": "MARKETING",
+  "caption": "A destination shortlist starts with a school planning conversation. Agree on the learning purpose, the needs of the group and the information families will need. These three questions give teachers a practical brief to work from before comparing places to visit.",
+  "slides": [
+    {"label": "A school planning conversation", "title": "Before choosing a destination", "body": "Three questions for your next school-trip planning meeting.", "note": "Start with the students and the purpose of the trip."},
+    {"label": "Set the brief", "title": "Give the shortlist a purpose", "body": "A place can be interesting and still need a closer look for this group.", "items": ["What will students explore?", "What pace can the group manage?", "What do families need to know?"]},
+    {"label": "Question 01 / Learning purpose", "title": "What should students explore in person?", "body": "Name a question students can investigate through observation.", "items": ["History: how does a place remember its past?", "Geography: how does a city manage water?"], "note": "Plan time to discuss what students notice."},
+    {"label": "Question 02 / Group needs", "title": "What is manageable for this group?", "body": "Consider age, travel experience and accessibility needs.", "items": ["Count transfers and walking time.", "Allow for meals and rest.", "Discuss time away from home."], "note": "Review the full day, not only the main visit."},
+    {"label": "Question 03 / Family information", "title": "What do families need to understand?", "body": "Prepare clear information before asking families to commit.", "items": ["Expected cost and what it includes.", "Supervision and communication arrangements.", "What is confirmed and what needs checking."]},
+    {"label": "The planning takeaway", "title": "Write the brief before the shortlist", "body": "A useful brief connects the learning purpose, the needs of the group and the questions families will ask.", "note": "Use it as the starting point for comparing destinations."}
+  ]
+}
