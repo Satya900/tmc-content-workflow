@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "built_utc": "2026-09-17T06:30:05.445981+00:00",
+  "app_validation": {
+    "chatgpt": "NOT_RUN",
+    "claude": "NOT_RUN"
+  },
+  "files_sha256": {
+    "project-files/assets/TMC_Logo_Dark_Mode_CRM.png": "895ebf39162e3f11399f244ce03eb7326c96e872982c2ef41d40e763f76616c0",
+    "project-files/assets/TMC_Logo_Primary_CRM.png": "20afd96a119d50608422fba51f24331d801b6b1c572a3aeeafe179a964467125",
+    "project-files/licenses/anthropic-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "project-files/licenses/coreyhaines31-MIT.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+    "project-files/PROJECT_INSTRUCTIONS.md": "8f69c85a7d7631c54267c5bc328abce7e0a66ffdee4a8365d5c9a81d15ce0193",
+    "project-files/THIRD_PARTY_NOTICES.md": "b056dab4e265f656be5afb9c2406dbd63657d8043a1832cf19d19f4c7d1db962",
+    "project-files/TMC_CONTEXT.md": "80c2dc3fff8a260baf2161014909c037612a60e6738650f413d3736b46aa4d66",
+    "project-files/TMC_FORMATS.md": "cc0773c07cbd675977f4279e64956551b2bec2965e7aa315d81ac5b7309c600a",
+    "project-files/TMC_WORKFLOW.md": "0835b87ef5035174b2225e98fde3d7870bb4c092764e84ed6e4e7c73acf2a95a",
+    "SETUP.md": "a27bdca1343b1f41b24b43d55977ab23cc9279b8c04cda0a6306bca00dd2e0b4",
+    "SKILL_RESEARCH.md": "3ea7a2561841cc23eb9a3e7f2b5f76252547bb33e8f1d41982635caacb615248",
+    "sources.lock.json": "022f06e08bfcfd39371b36bf485f01631f5e759d80607046a8dac95c0f321326",
+    "tmc-content-workflow/assets/job-template.md": "82d262388884c4425155374fac07d30f17e4a62da264b82f1a504e285ac50f5a",
+    "tmc-content-workflow/assets/TMC_Logo_Dark_Mode_CRM.png": "895ebf39162e3f11399f244ce03eb7326c96e872982c2ef41d40e763f76616c0",
+    "tmc-content-workflow/assets/TMC_Logo_Primary_CRM.png": "20afd96a119d50608422fba51f24331d801b6b1c572a3aeeafe179a964467125",
+    "tmc-content-workflow/licenses/anthropic-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "tmc-content-workflow/licenses/coreyhaines31-MIT.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+    "tmc-content-workflow/references/TMC_CONTEXT.md": "80c2dc3fff8a260baf2161014909c037612a60e6738650f413d3736b46aa4d66",
+    "tmc-content-workflow/references/TMC_FORMATS.md": "cc0773c07cbd675977f4279e64956551b2bec2965e7aa315d81ac5b7309c600a",
+    "tmc-content-workflow/references/TMC_WORKFLOW.md": "0835b87ef5035174b2225e98fde3d7870bb4c092764e84ed6e4e7c73acf2a95a",
+    "tmc-content-workflow/SKILL.md": "2577692327e1709e817bdaf2b8e10f46c648624ff46b30a575f59e97949dabae",
+    "tmc-content-workflow/THIRD_PARTY_NOTICES.md": "b056dab4e265f656be5afb9c2406dbd63657d8043a1832cf19d19f4c7d1db962",
+    "tmc-content-workflow.zip": "e052bed494197828a1222a4ebb9440a6e6efd15a189fd85fa6cba4b10e18bd42"
+  }
+}
