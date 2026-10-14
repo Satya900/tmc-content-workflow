@@ -1,0 +1,7 @@
+# Python 3.9+. Install with: python3 -m pip install -r requirements.txt
+# build_desktop_pack.py and fetch_vendor_notices.py need only the standard library.
+Pillow>=10.0        # render_photo_carousel.py
+numpy>=1.24         # render_photo_carousel.py
+reportlab>=4.0      # render_photo_carousel.py, build_costing_proposal.py
+pypdf>=4.0          # test_photo_carousel_renderer.py
+pypdfium2>=4.0      # build_costing_proposal.py

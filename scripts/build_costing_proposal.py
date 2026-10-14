@@ -8,11 +8,14 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.enums import TA_RIGHT
 import pypdfium2 as pdfium
 
+from tmc_fonts import find_fonts
+
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'output'/'pdf'; OUT.mkdir(parents=True,exist_ok=True)
 QA=ROOT/'tmp'/'pdfs'/'costing'; QA.mkdir(parents=True,exist_ok=True)
-pdfmetrics.registerFont(TTFont('Arial','C:/Windows/Fonts/arial.ttf'))
-pdfmetrics.registerFont(TTFont('ArialBold','C:/Windows/Fonts/arialbd.ttf'))
+FONTS=find_fonts()
+pdfmetrics.registerFont(TTFont('Arial',str(FONTS['body'])))
+pdfmetrics.registerFont(TTFont('ArialBold',str(FONTS['bold'])))
 pdfmetrics.registerFontFamily('Arial',normal='Arial',bold='ArialBold',italic='Arial',boldItalic='ArialBold')
 styles=getSampleStyleSheet()
 for name in ['Normal','BodyText','Title','Heading1','Heading2']:
