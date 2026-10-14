@@ -56,7 +56,7 @@ jobs/<content-id>/      Portable job records: job.md, sources.md, draft-vNNN.md,
 uploads/<Trip>/Post N/  Hand-picked source trip photos
 output/                 Rendered carousels, previews and PDFs
 logos/                  TMC primary and dark-mode logos
-scripts/                Build, render and test scripts (below)
+scripts/                Build, render and test scripts, plus the shared font locator (below)
 vendor/                 Pinned upstream skill snapshots and licences (not auto-activated)
 dist/                   Generated releases (project files + native skill ZIP)
 docs/                   Setup, renderer guide, skill research, status, smoke-test results
@@ -77,7 +77,15 @@ To move a job between apps, take its latest `job.md`, sources, draft and review 
 
 ## Scripts
 
-All scripts are Python 3. They resolve paths relative to the repo root.
+All scripts are Python 3.9 or newer and resolve paths relative to the repo root. One-time setup:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
+```
+
+The renderer and the cost proposal use Arial and Arial Black as offline fallbacks for DM Sans and Staatliches. `scripts/tmc_fonts.py` finds them in the standard Windows, macOS and Linux font folders. On Linux, install them first (for example `ttf-mscorefonts-installer` on Debian or Ubuntu).
 
 ### Build the desktop pack
 
@@ -93,7 +101,7 @@ Uses only the standard library and makes no network calls. It compiles `system/`
 python scripts/render_photo_carousel.py story.json \
   --photos-dir "uploads/<Trip>/Post N" \
   --output "output/<job>/<version>" \
-  [--fonts-dir C:/Windows/Fonts]
+  [--fonts-dir <folder with Arial and Arial Black>]
 ```
 
 Needs Pillow, reportlab and numpy. Works offline. It puts brand-styled hook and caption text over trip photos, with a vignette, logo, page counter and swipe indicator. Text is capped at 10 words per slide. Outputs:
@@ -102,12 +110,12 @@ Needs Pillow, reportlab and numpy. Works offline. It puts brand-styled hook and 
 - a PDF, a contact sheet, `caption.txt`, `alt-text.md` and `story.json`
 - `manifest.json` with file hashes, `status: REVIEW` and `human_approval: null`
 
-Rendering stops before any file is written if `consent_status` is anything other than `APPROVED` or `NOT_APPLICABLE`, or if the copy contains banned words or punctuation from the brand brief. It also refuses to overwrite an existing output folder. The default fonts directory is a Windows path (Arial and Arial Black as offline fallbacks for DM Sans and Staatliches), so pass `--fonts-dir` on other systems. See [`docs/PHOTO_CAROUSEL_RENDERER.md`](docs/PHOTO_CAROUSEL_RENDERER.md) for the input schema.
+Rendering stops before any file is written if `consent_status` is anything other than `APPROVED` or `NOT_APPLICABLE`, or if the copy contains banned words or punctuation from the brand brief. It also refuses to overwrite an existing output folder. Fonts are found automatically. Pass `--fonts-dir` only if they're installed somewhere non-standard. See [`docs/PHOTO_CAROUSEL_RENDERER.md`](docs/PHOTO_CAROUSEL_RENDERER.md) for the input schema.
 
 ### Test the renderer
 
 ```bash
-cd scripts && python test_photo_carousel_renderer.py
+python scripts/test_photo_carousel_renderer.py
 ```
 
 Also needs `pypdf`. Covers the export contract, the consent gate (`UNKNOWN` and `DENIED`), missing photos, banned-copy rejection and the 10-word cap. It reads photos from `uploads/Europe Batch 3/Post 1`.
@@ -115,7 +123,7 @@ Also needs `pypdf`. Covers the export contract, the consent gate (`UNKNOWN` and 
 ### Other scripts
 
 - `scripts/fetch_vendor_notices.py` fetches licences and notices for the pinned upstream skills from GitHub and rewrites `vendor/sources.lock.json`. This is the only script that uses the network, and it never runs vendor code.
-- `scripts/build_costing_proposal.py` generates the TMC Content Platform cost proposal PDF in `output/pdf/`. Needs reportlab and pypdfium2, and uses Windows font paths.
+- `scripts/build_costing_proposal.py` generates the TMC Content Platform cost proposal PDF in `output/pdf/`. Needs reportlab and pypdfium2. Running it overwrites the existing proposal PDF and its QA images in `tmp/pdfs/costing/`.
 
 ## Brand essentials
 

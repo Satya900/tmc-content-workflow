@@ -31,9 +31,15 @@ mechanically instead of relying on someone remembering to check.
 
 ## Run
 
-```powershell
-& 'C:\Users\mohan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts/render_photo_carousel.py path/to/story.json --photos-dir path/to/photos --output output/<job>/<version>
+Install dependencies once with `python -m pip install -r requirements.txt`, then:
+
+```bash
+python scripts/render_photo_carousel.py path/to/story.json --photos-dir path/to/photos --output output/<job>/<version>
 ```
+
+The fonts are found automatically in the standard Windows, macOS and Linux
+font folders (`scripts/tmc_fonts.py`). Pass `--fonts-dir` only if Arial and
+Arial Black are installed somewhere else.
 
 ## Input
 
@@ -65,8 +71,8 @@ regardless of what the input claims.
 
 ## Validation
 
-```powershell
-& 'C:\Users\mohan\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts/test_photo_carousel_renderer.py
+```bash
+python scripts/test_photo_carousel_renderer.py
 ```
 
 Seven tests cover the export contract (dimensions, PDF page count, file

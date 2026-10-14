@@ -29,7 +29,7 @@ class PhotoRendererTests(unittest.TestCase):
 
     def run_render(self):
         src = self.base / 'input.json'; src.write_text(json.dumps(self.data), encoding='utf-8')
-        return render(src, PHOTOS_DIR, self.base / 'out', 'C:/Windows/Fonts')
+        return render(src, PHOTOS_DIR, self.base / 'out')
 
     def test_exports_match_contract(self):
         out = self.run_render()

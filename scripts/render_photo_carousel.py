@@ -27,6 +27,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageStat
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
 
+from tmc_fonts import find_fonts
+
 ROOT = Path(__file__).resolve().parents[1]
 CYAN = (26, 175, 224)
 DEEP = (14, 127, 166)
@@ -180,15 +182,13 @@ def compose_slide(photo_path, s, index, total, height, fonts, logo, is_cover, ti
     return base.convert('RGB')
 
 
-def render(source, photos_dir, output, fonts_dir):
+def render(source, photos_dir, output, fonts_dir=None):
     source, photos_dir, output = Path(source), Path(photos_dir), Path(output)
     data = json.loads(source.read_text(encoding='utf-8-sig'))
     validate(data, photos_dir)
     if output.exists():
         raise ValueError('Output exists. Choose a new output directory to preserve reviewed versions.')
-    fonts = {k: Path(fonts_dir) / v for k, v in {'display': 'ariblk.ttf', 'body': 'arial.ttf', 'bold': 'arialbd.ttf'}.items()}
-    for f in fonts.values():
-        if not f.is_file(): raise ValueError(f'Required offline fallback font missing: {f}')
+    fonts = find_fonts(fonts_dir)
     logo = Image.open(ROOT / 'logos' / 'TMC_Logo_Dark_Mode_CRM.png').convert('RGBA')
     output.parent.mkdir(parents=True, exist_ok=True)
     total = len(data['slides'])
@@ -238,7 +238,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('source'); ap.add_argument('--photos-dir', required=True)
     ap.add_argument('--output', required=True)
-    ap.add_argument('--fonts-dir', default='C:/Windows/Fonts')
+    ap.add_argument('--fonts-dir', help='Folder holding Arial and Arial Black (default: search the standard OS font folders)')
     args = ap.parse_args()
     try:
         print(render(args.source, args.photos_dir, args.output, args.fonts_dir))
