@@ -1,0 +1,45 @@
+{
+  "id": "TMC-20261014-CAR-001",
+  "version": "v001",
+  "status": "REVIEW",
+  "human_approval": null,
+  "publication": null,
+  "renderer": "open-carrusel 8ba717b (local, localhost:3000), slides driven through its API",
+  "consent_status_declared": "APPROVED",
+  "consent_source": "User confirmation in Claude Code session, 2026-10-14: written permission held for students of both schools. No permission document is stored in this workspace.",
+  "anonymisation": "Name tags and school ID cards of Japanese children blurred in 0863 (two children) and 0954 (one child). Originals in input images/ are unblurred.",
+  "font_mode": "Staatliches and DM Sans (Google Fonts woff2, embedded per slide)",
+  "dimensions": {
+    "instagram_4x5": [
+      1080,
+      1350
+    ],
+    "square_1x1": [
+      1080,
+      1080
+    ]
+  },
+  "files_sha256": {
+    "Japan,_one_brushstroke_at_a_time.pdf": "8554f21715127b929c65701b491190cbb94814c17463f64f271949728cbf2fb4",
+    "alt-text.md": "d7880f3ae2fb23b2abd831288ca53bcd75ebe5cdb06504d738eb08f9cd9c7739",
+    "caption.txt": "6b0ce7662b9827802113a2f6f90ae387ac802a0ac1d0e23d43c649ae59877179",
+    "contact-sheet.png": "1f64b7cab1f3d1726f1d5b94a288d9eb7684160ecfefab35b6f55c59efb04f1c",
+    "instagram_4x5/01.png": "9737d30a93b0b515908b8ed97b3dea7d1924ffb55fc7e407779abfc7ec83bbad",
+    "instagram_4x5/02.png": "d016375e006b90d583fabb5f82968b85aba78139cb8bd77cf96257802cee62ca",
+    "instagram_4x5/03.png": "34d6856d43252a7c0e5b2b81f113714a42119b485d51d3514a11eb21a954a9be",
+    "instagram_4x5/04.png": "2c1c6677d9c09d24854ae04eac862b156b01504ba35eaabdce025673d7fa6331",
+    "slides-html/1x1-01.html": "9725c02ab232351719a9cbb4f45f426cfb550a5b1537406de74e31e9b79eab93",
+    "slides-html/1x1-02.html": "842b04a4f816c0e31b775596048d69630d97c26adbfeb747f6d2a621be7377dd",
+    "slides-html/1x1-03.html": "a67ded5ac254a0a4964278285803e9ca9de17df67a1b025686e77bf79b6b0762",
+    "slides-html/1x1-04.html": "97517d71fb5cb038c413316761e953ce1cc0dcc3009aaa0435785b10eef3e518",
+    "slides-html/4x5-01.html": "f4325a2654d7313b6cfec391558f3c4ed5a298d0eb9a0e3047e7cdb09c6ef089",
+    "slides-html/4x5-02.html": "40b1a9c298f4d80e1914dbf4ffc01505d34131aae9072f845ebed5e895c7df44",
+    "slides-html/4x5-03.html": "f78571a5dc3c95eeeff95b071017047c1e4d264f56d757680cc738b7c60054b9",
+    "slides-html/4x5-04.html": "8a5bf72e72012ce2374d4688fc6b65621516ce8f737b74f9fcf906c4f90e6504",
+    "square_1x1/01.png": "6f4c9c88159c632ea58ecbf16a42eae6d07d20477515a4350192fb9910697e61",
+    "square_1x1/02.png": "be721313ec1ca8fddcd9586881c17ecb2ac0b7b91b84141b59a14efcfe82f4f6",
+    "square_1x1/03.png": "773bdf5777d1ebc1f1ab0c5e619ff1f8a631ed3983d21f3e5a8c992848500da5",
+    "square_1x1/04.png": "aad3daf789b47fceaac72555deb194382e7094314ab8489c7f6430874ddd5b3e",
+    "story.json": "ecddaa449f909f02cf0c523d4123f7626bf1f0784656daf4e5a9cfdc169454d5"
+  }
+}

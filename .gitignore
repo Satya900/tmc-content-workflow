@@ -11,3 +11,9 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Photos of minors stay local: this repo is public
+input images/
+uploads/Japan Experience/
+output/Japan Experience/**/*.png
+output/Japan Experience/**/*.pdf
