@@ -1,0 +1,14 @@
+{
+  "id": "TMC-20261014-CAR-001",
+  "version": "v001",
+  "title": "Japan, one brushstroke at a time",
+  "category": "TOUR",
+  "consent_status": "APPROVED",
+  "post_caption": "A school visit in Japan. Our students sat down with their Japanese hosts for calligraphy, then origami. Brush pens, careful strokes, folded paper, and one piece that ended up on a nose instead of the desk.",
+  "slides": [
+    {"file": "Framesbyadrian-0863.jpg", "caption": ""},
+    {"file": "Framesbyadrian-0875.jpg", "label": "Calligraphy", "caption": "Japanese characters, written slowly and with care."},
+    {"file": "Framesbyadrian-0954.jpg", "label": "Origami", "caption": "Then origami. Some of it ended up on noses."},
+    {"file": "Framesbyadrian-0967.jpg", "caption": "Full concentration on both sides of the desk."}
+  ]
+}
