@@ -1,6 +1,6 @@
 # TMC desktop setup
 
-Release 0.1: a shared instruction pack for non-video TMC content. Both apps receive identical knowledge and operating rules. Native integrations and rendered outputs depend on each session's actual tools. This release has not been installed or tested inside either target account.
+Release 0.2: a shared instruction pack for TMC content (video scripts included, video production excluded). Both apps receive identical knowledge and operating rules. Native integrations and rendered outputs depend on each session's actual tools. This release has not been installed or tested inside either target account.
 
 ## Shared project-file route (both apps)
 
@@ -40,7 +40,7 @@ No publishing, scheduled tasks, messaging, account connections or subscriptions 
 
 ## Maintainer rebuild
 
-Edit system/ and the existing skills/ or brand-brief.md as appropriate. Run `python scripts/build_desktop_pack.py`. It uses only the standard library and writes a fresh dist/tmc-0.1.0-* release without replacing prior releases. Pin and review upstream updates before changing vendor sources. Do not edit generated knowledge files in only one app.
+Edit system/ and the existing skills/ or brand-brief.md as appropriate. Run `python scripts/build_desktop_pack.py`. It uses only the standard library and writes a fresh dist/tmc-<version>-* release without replacing prior releases. Pin and review upstream updates before changing vendor sources. Do not edit generated knowledge files in only one app.
 
 ## Verified product documentation (17 September 2026)
 

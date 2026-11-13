@@ -15,6 +15,24 @@ The knowledge and instruction package is built. End-to-end automation is not com
 - The earlier Brussels carousel export (`output/Europe Batch 3/Post 1`, made by the external open-carrusel tool) was lost on 27 September 2026: a backup `mv` into a sibling folder emptied the destination instead of transferring the files, apparently a OneDrive Files-on-Demand interaction with a raw filesystem rename. The user confirmed treating it as deleted rather than pursuing recovery. The source trip photos in `uploads/Europe Batch 3/Post 1` were unaffected and remain intact. The post was rebuilt from the same story content and photos using the new photo-overlay renderer (see item 3).
 - The costing proposal is a planning artifact, not evidence of a deployed application or connected accounts.
 
+## Update, 2 November 2026: release 0.2.0
+
+- The approval brief (15 October 2026), the Understanding TMC guide and the Content Generation workbook were adapted into the skills. See `docs/SOURCE_DOCUMENTS.md` for what came from where and the open questions.
+- New core references: `content-buckets.md`, `audience-personas.md`, `content-generation-playbook.md`, `measurement-and-calendar.md`. Brand context, 4D framework, taxonomy and claims register rewritten. Claims register seeded with TMC's own selling points as `VERIFY`.
+- New skills: `tmc-social-post`, `tmc-lead-magnet`. `tmc-reel` now covers video scripts. Every format skill now records one primary bucket.
+- `system/` updated: 4D fields at intake, calendar format, new output contracts, three new smoke tests (10 to 12).
+- `build_desktop_pack.py` now runs on Python 3.9 and includes the new references and skills. Release `dist/tmc-0.2.0-*` built and validated locally. App acceptance in ChatGPT and Claude remains NOT_RUN.
+- Existing job records keep their earlier "pillar" wording. Map them with the table in `content-buckets.md` when they are resumed.
+- Bucket approval, operating standards and the posting cadence are open team decisions.
+
+## Update, 3 November 2026: B2B workbook answers (release 0.2.0, rebuilt)
+
+- The system is now explicitly B2B: the school is the customer. Parents and students are voices and evidence, never targets. Core context, personas, buckets, framework, taxonomy, playbook and format skills were updated to match, and the quality gate now rejects ideas or CTAs aimed at families.
+- New `content-strategy-workbook.md` answers every exercise in the 99-page workbook for TMC: customer focus, B2B account and buying-committee profiles, personas, bucket research questions, top 10 keywords, needs and emotions for all seven buckets, channel roles (B2B tactics only), the owner's role, and a B2B reading of the Understanding TMC guide.
+- New `topic-bank.md`: three full 33-angle topic sets, 15 blog titles, interview guests, school testimonial questions, lead magnets per bucket, B2B calendar sample.
+- Smoke tests 13 and 14 added (B2C request handling, 33-angle generation). Test 12 now expects a principal-only asset.
+- The answers are proposed working answers. Open questions 7 to 9 in `docs/SOURCE_DOCUMENTS.md` need team confirmation.
+
 ## Remaining work in delivery order
 
 1. Run and record the nine scenarios in `system/SMOKE_TESTS.md` in both target apps. Include one cross-app job handoff. Keep installation reported by the user distinct from observed behavior. Partial evidence: all nine scenarios were run and passed in a single Claude Code session on 27 September 2026 (see `docs/SMOKE_TEST_RESULTS_20260927.md`), including a real resume test against `TMC-20260921-LI-001` and a real fresh renderer run with inspected output. This verifies the instruction layer's behavior but is not the two-app acceptance run this item requires — ChatGPT Desktop and Claude Desktop remain untested.

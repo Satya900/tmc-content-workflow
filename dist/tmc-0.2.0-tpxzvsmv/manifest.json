@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "built_utc": "2026-11-03T05:22:43.506466+00:00",
+  "app_validation": {
+    "chatgpt": "NOT_RUN",
+    "claude": "NOT_RUN"
+  },
+  "files_sha256": {
+    "SETUP.md": "2c43783aa8ed34f37b5434187bd8f9cf59a8ed06f87f70efede695b4db72fe93",
+    "SKILL_RESEARCH.md": "3ea7a2561841cc23eb9a3e7f2b5f76252547bb33e8f1d41982635caacb615248",
+    "project-files/PROJECT_INSTRUCTIONS.md": "644264f00f6ce0594010ed2dafb40d47e7b3e01da48520fda8e77ec4cb7dbb59",
+    "project-files/THIRD_PARTY_NOTICES.md": "b056dab4e265f656be5afb9c2406dbd63657d8043a1832cf19d19f4c7d1db962",
+    "project-files/TMC_CONTEXT.md": "95fb47741fa9541f30a9b634e1aa909cdbf867f0ebecb3047de00fdd66a1f260",
+    "project-files/TMC_FORMATS.md": "892856bffc0714786f6920d8d182b07e21885307d3cca5418d8056149820e7bc",
+    "project-files/TMC_WORKFLOW.md": "123d14aee828b22cd32f47ec92fc83172277e1d3bd3a87ace84b23b26d6f175d",
+    "project-files/assets/TMC_Logo_Dark_Mode_CRM.png": "895ebf39162e3f11399f244ce03eb7326c96e872982c2ef41d40e763f76616c0",
+    "project-files/assets/TMC_Logo_Primary_CRM.png": "20afd96a119d50608422fba51f24331d801b6b1c572a3aeeafe179a964467125",
+    "project-files/licenses/anthropic-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "project-files/licenses/coreyhaines31-MIT.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+    "sources.lock.json": "022f06e08bfcfd39371b36bf485f01631f5e759d80607046a8dac95c0f321326",
+    "tmc-content-workflow/SKILL.md": "fe7c03419d462e814de5151c93a33e8ccac98e59e0b30282430b194b148a2928",
+    "tmc-content-workflow/THIRD_PARTY_NOTICES.md": "b056dab4e265f656be5afb9c2406dbd63657d8043a1832cf19d19f4c7d1db962",
+    "tmc-content-workflow/assets/TMC_Logo_Dark_Mode_CRM.png": "895ebf39162e3f11399f244ce03eb7326c96e872982c2ef41d40e763f76616c0",
+    "tmc-content-workflow/assets/TMC_Logo_Primary_CRM.png": "20afd96a119d50608422fba51f24331d801b6b1c572a3aeeafe179a964467125",
+    "tmc-content-workflow/assets/job-template.md": "54be66ffc2130d9329b6bdcb25954b0294c1eda3f73c4d173f46bc82e1935a74",
+    "tmc-content-workflow/licenses/anthropic-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "tmc-content-workflow/licenses/coreyhaines31-MIT.txt": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+    "tmc-content-workflow/references/TMC_CONTEXT.md": "95fb47741fa9541f30a9b634e1aa909cdbf867f0ebecb3047de00fdd66a1f260",
+    "tmc-content-workflow/references/TMC_FORMATS.md": "892856bffc0714786f6920d8d182b07e21885307d3cca5418d8056149820e7bc",
+    "tmc-content-workflow/references/TMC_WORKFLOW.md": "123d14aee828b22cd32f47ec92fc83172277e1d3bd3a87ace84b23b26d6f175d",
+    "tmc-content-workflow.zip": "8e64cb956bdb439ea9fd8eb9631d1f326c684dfbf3322ce6aef0cb6c3f208587"
+  }
+}

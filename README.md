@@ -1,33 +1,39 @@
 # TMC Content Workflow
 
-The content engine for **The Modern Classroom (TMC)**, an educational school-travel operator. This repo holds the instructions, brand rules, job records and a few local tools that let Claude (and ChatGPT) plan, draft, review and render TMC's non-video marketing and tour content in a consistent way.
+The content engine for **The Modern Classroom (TMC)**, a Bangalore-based educational experience design partner for schools (day trips, domestic and international educational tours). This repo holds the instructions, brand rules, job records and a few local tools that let Claude (and ChatGPT) plan, draft, review and render TMC's marketing and tour content in a consistent way.
+
+The strategy comes from three TMC documents: the content marketing approval brief (seven content buckets), the Understanding TMC guide (personas, programmes, metrics) and the Content Generation workbook (4D process, 33 angles, delivery templates). See [`docs/SOURCE_DOCUMENTS.md`](docs/SOURCE_DOCUMENTS.md).
 
 Most of the repo is Markdown that an AI assistant reads, not application code. The Python scripts build a distributable instruction pack and render branded photo carousels offline.
 
-> **Status:** Release `0.1.0`. The instruction pack is built. Behaviour has been checked in a single Claude Code session but not yet in both target desktop apps (ChatGPT Desktop and Claude Desktop). Nothing in this repo publishes, schedules or sends content. See [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
+> **Status:** Release `0.2.0` (content buckets, personas and the full content generation playbook). The instruction pack is built. Behaviour has been checked in a single Claude Code session but not yet in both target desktop apps (ChatGPT Desktop and Claude Desktop). Nothing in this repo publishes, schedules or sends content. See [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 
 ## What it covers
 
 | Format | Skill |
 |---|---|
-| Content planning, calendars, campaign themes | `tmc-content-strategist` |
+| Content planning, 4D ideas, monthly calendars | `tmc-content-strategist` |
 | Marketing carousels (positioning, lead gen) | `tmc-marketing-carousel` |
 | Tour photo dumps (real trip documentation) | `tmc-tour-photo-dump` |
 | Photo selection, ranking and sequencing | `tmc-photo-selector` |
 | LinkedIn (company page and founder, Yasin) | `tmc-linkedin` |
+| Instagram, Facebook, WhatsApp, Google Business Profile, infographics | `tmc-social-post` |
+| Lead magnets, checklists, landing pages | `tmc-lead-magnet` |
 | Blogs and SEO articles | `tmc-blog` |
 | Newsletters and nurture emails | `tmc-newsletter` |
 | Case studies | `tmc-case-study` |
-| Reels (deferred in release 0.1) | `tmc-reel` |
+| Reel, YouTube and testimonial video scripts (production deferred) | `tmc-reel` |
 | Pre-publication review and QA | `tmc-editorial-qa` |
 | Monthly performance review and planning | `tmc-monthly-strategist` |
 | Rendering via open-carrusel (optional, legacy) | `tmc-carousel-pipeline` |
 
-Every job loads `tmc-core-context` first. It holds the brand context, content taxonomy, Marketing Template mapping and a claims-register template.
+Every job loads `tmc-core-context` first. It holds the brand context, the seven content buckets, audience personas, the 4D framework, the content generation playbook, the content taxonomy, measurement and calendar rules, and a claims-register template.
 
 ## Core rules
 
 - **Every job is TOUR or MARKETING.** In TOUR content the photos tell the real trip story. In MARKETING content a school audience's problem drives the argument.
+- **One audience, one bucket.** Each asset has one primary audience and one of seven content buckets: experiential learning and SEL; safety, governance and parent confidence; educators and partnerships; curriculum integration and pedagogy; evidence of learning and stories from the road; leadership and vision; school programme planning and decisions.
+- **4D for every marketing idea.** Determine the audience, Define the bucket, Decode one need or emotion, Develop one of 33 angles.
 - **Never invent facts.** That covers claims, student outcomes, safety records, prices, testimonials, founder anecdotes, links and media permissions. If evidence is missing, the affected claim is blocked. Unrelated work can still go ahead.
 - **Consent is explicit.** Media permission is `APPROVED`, `DENIED`, `UNKNOWN` or `NOT_APPLICABLE`. `UNKNOWN` never counts as approved, and having a photo file is not consent.
 - **AI QA and human approval are separate.** QA returns `PASS`, `REVISE` or `BLOCK`. Approval needs a human decision tied to a specific version. Changing an approved version sends it back to review.
@@ -63,7 +69,7 @@ docs/                   Setup, renderer guide, skill research, status, smoke-tes
 tmp/                    Rendered QA page images
 ```
 
-Job IDs look like `TMC-YYYYMMDD-<FORMAT>-NNN`, where the format is `LI`, `FB`, `CAR`, `BLOG`, `NEWS` or `CASE`.
+Job IDs look like `TMC-YYYYMMDD-<FORMAT>-NNN`, where the format is `LI`, `FB`, `IG`, `CAR`, `BLOG`, `NEWS`, `CASE`, `LM` (lead magnet), `WA` (WhatsApp), `WEB` or `VID` (video script).
 
 ## Using the workflow in a desktop app
 
@@ -77,7 +83,7 @@ To move a job between apps, take its latest `job.md`, sources, draft and review 
 
 ## Scripts
 
-All scripts are Python 3.9 or newer and resolve paths relative to the repo root. One-time setup:
+All scripts are Python 3.9 or newer (the pack builder is verified on 3.9.6) and resolve paths relative to the repo root. One-time setup:
 
 ```bash
 python3 -m venv .venv
@@ -138,6 +144,6 @@ From [`brand-brief.md`](brand-brief.md):
 
 `vendor/` holds pinned snapshots of selected skills from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) and [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Apache-2.0). Adapted methods live in `system/FORMAT_EXTENSIONS.md`. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and [`docs/SKILL_RESEARCH.md`](docs/SKILL_RESEARCH.md).
 
-## Out of scope for release 0.1
+## Out of scope for release 0.2
 
-Video and reels production, Ready for Umrah content, automatic publishing, scheduling, email sending, analytics collection, and the proposed TMC Content Platform web app (costed, not built).
+Video filming, editing and rendering (scripts are in scope), paid ad setup, Ready for Umrah content, automatic publishing, scheduling, email sending, analytics collection, and the proposed TMC Content Platform web app (costed, not built).

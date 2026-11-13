@@ -1,14 +1,14 @@
-# TMC workflow, release 0.1
+# TMC workflow, release 0.2
 
 ## Scope and authority
 
-This release supplies the instruction and handoff layer for non-video TMC content. It does not install renderers, connect accounts, send email or publish content. Use the user's requested formats; repurposing into every format is optional.
+This release supplies the instruction and handoff layer for TMC content: LinkedIn, Instagram, Facebook, WhatsApp and other social posts, carousels, tour photo posts, blogs, newsletters and sequences, lead magnets, case studies, website copy, calendars and monthly reviews. Video scripts may be drafted as text. Filming, editing and rendering video remain out of scope. This release does not install renderers, connect accounts, send email or publish content. Use the user's requested formats; repurposing into every format is optional.
 
-Business positioning comes from TMC core context. Visual identity and caption restrictions come from brand-brief.md. Where that brief makes numerical contrast claims, use the measured contrast clarification included in TMC_CONTEXT.md. Format rules sit below these shared rules. External skill examples are not verified TMC facts.
+Business positioning, audience and content buckets come from TMC core context, which follows the TMC content marketing approval brief (v1, 15 October 2026). Visual identity and caption restrictions come from brand-brief.md. Where that brief makes numerical contrast claims, use the measured contrast clarification included in TMC_CONTEXT.md. Format rules sit below these shared rules. External skill examples are not verified TMC facts.
 
 ## Start and resume
 
-For a new job, gather only the information needed for the next useful action: source or topic, TOUR/MARKETING, audience, requested formats and any required claim or media permissions. Infer ordinary format choices and label assumptions. Do not interrogate the user about every taxonomy field.
+For a new job, gather only the information needed for the next useful action: source or topic, TOUR/MARKETING, audience, requested formats and any required claim or media permissions. For MARKETING, record the 4D fields: audience (Determine), one primary content bucket from 1 to 7 (Define), one need or emotion (Decode) and one content angle (Develop). Assign the bucket yourself when the brief makes it clear and label it as an assumption. Infer ordinary format choices and label assumptions. Do not interrogate the user about every taxonomy field.
 
 For a resumed job, read its latest job.md, draft version, sources and review notes. Identify the authoritative version. If two apps edited the same version, show the differences and resolve the conflict before recording a new approved version. Never combine approval from one version with content from another.
 
@@ -51,13 +51,23 @@ Blog: article, title, proposed slug, metadata, verified sources, link suggestion
 
 Newsletter: subject options, preview text, body, CTA and destination, editable copy and HTML when requested and supported. Use explicit placeholders for sender details and unsubscribe handling until configured. Never claim email-client testing from a browser preview alone.
 
+Social post: channel, visual brief, caption, alt text for the final visual, optional CTA, claim notes, QA and status.
+
+Lead magnet: the resource content, landing page and form copy, thank-you and delivery email, promotion plan, and open implementation requirements.
+
+Video script: spoken script with timings, on-screen text, shot list, caption and CTA. Status after approval is RENDERING_PENDING.
+
+Calendar: rows in the calendar format, with the inputs each row depends on.
+
 Website asset: page copy, headings, CTA/form requirements, metadata and implementation handoff. Generating copy is not deploying a page or activating a form.
 
 ## Repurposing and tracking
 
 Keep one source ID and master idea across adaptations. Rewrite hooks, density and account voice for each platform. Do not invent an anecdote to personalise Yasin's version.
 
-The scope's non-video monthly capacity is 25 placements: 8 personal LinkedIn, 4 company LinkedIn, 4 Instagram, 4 Facebook, 2 email, 2 blog and 1 website asset. PDF carousels occupy an appropriate channel slot, not an extra automatic quota. The five-email checklist nurture sequence is a foundation asset, separate from recurring campaigns. These are planning capacities, not a required output for every request.
+Calendars use the columns in measurement-and-calendar.md (posting date, platform, content bucket, needs and emotions, delivery type, topic, status, caption, plus content ID and links). Spread a month across all seven buckets unless the user directs otherwise.
+
+The scope's non-video monthly capacity is 25 placements: 8 personal LinkedIn, 4 company LinkedIn, 4 Instagram, 4 Facebook, 2 email, 2 blog and 1 website asset. PDF carousels occupy an appropriate channel slot, not an extra automatic quota. The five-email checklist nurture sequence is a foundation asset, separate from recurring campaigns. These are planning capacities, not a required output for every request. The Understanding TMC guide sets a larger ideal schedule (see measurement-and-calendar.md). Plan to the contracted capacity unless the user records a change.
 
 Airtable updates remain manual or explicitly connected. Provide a copyable tracker row if disconnected. Monthly analysis uses supplied data and states the reporting window and metric definitions; missing data is unknown, not zero. Recommend Continue, Improve, Test, Reduce or Stop and retain the reasoning for next month's calendar.
 
@@ -65,4 +75,4 @@ Airtable updates remain manual or explicitly connected. Provide a copyable track
 
 The portable baseline is project instructions plus three Markdown knowledge files and the source files for the current job. Native skills are an optional installation route. Generated packages are snapshots: rebuild and replace both apps' copies after editing the canonical files.
 
-The assistant should report exactly what was completed: content draft, QA, rendered preview, approved export or publication. Release 0.1 is structurally validated locally. Live workflow checks in both target accounts and renderer pilots remain separate acceptance work.
+The assistant should report exactly what was completed: content draft, QA, rendered preview, approved export or publication. Release 0.2 is structurally validated locally. Live workflow checks in both target accounts and renderer pilots remain separate acceptance work.

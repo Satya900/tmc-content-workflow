@@ -13,17 +13,24 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 FORMAT_SKILLS = [
-    "tmc-content-strategist", "tmc-linkedin", "tmc-marketing-carousel",
-    "tmc-tour-photo-dump", "tmc-photo-selector", "tmc-blog", "tmc-newsletter",
-    "tmc-case-study", "tmc-editorial-qa", "tmc-monthly-strategist",
+    "tmc-content-strategist", "tmc-linkedin", "tmc-social-post",
+    "tmc-marketing-carousel", "tmc-tour-photo-dump", "tmc-photo-selector",
+    "tmc-blog", "tmc-newsletter", "tmc-lead-magnet", "tmc-case-study",
+    "tmc-reel", "tmc-editorial-qa", "tmc-monthly-strategist",
 ]
 CONTEXT_FILES = [
     "skills/tmc-core-context/references/tmc-brand-context.md",
+    "skills/tmc-core-context/references/content-buckets.md",
+    "skills/tmc-core-context/references/audience-personas.md",
     "brand-brief.md",
+    "skills/tmc-core-context/references/content-strategy-workbook.md",
+    "skills/tmc-core-context/references/topic-bank.md",
     "skills/tmc-core-context/references/marketing-template-framework.md",
+    "skills/tmc-core-context/references/content-generation-playbook.md",
     "skills/tmc-core-context/references/content-taxonomy.md",
+    "skills/tmc-core-context/references/measurement-and-calendar.md",
     "skills/tmc-core-context/references/claims-register-template.md",
 ]
 
@@ -58,7 +65,7 @@ def section(filename, content):
 
 def make_documents():
     context = f"# TMC Context\n\nPack version: {VERSION}\n\n"
-    context += "Business positioning, visual brand and evidence rules. Historical mentions of video are deferred in this release. Source filenames below identify provenance; all their text is included here.\n"
+    context += "Business positioning, content buckets, audience personas, visual brand, the content generation playbook, measurement and evidence rules. Video scripts may be drafted; video production is deferred in this release. Source filenames below identify provenance; all their text is included here. Where a section names another reference file, that file is included in this document or in TMC_FORMATS.md.\n"
     context += "\n## Visual clarification\n\n"
     context += (f"Computed sRGB contrast against white: Classroom Cyan #1AAFE0 = {contrast_on_white('1AAFE0'):.2f}:1; "
                 f"Cyan Deep #0E7FA6 = {contrast_on_white('0E7FA6'):.2f}:1. "
@@ -67,7 +74,7 @@ def make_documents():
                 "Use charcoal or black on light surfaces where contrast is insufficient. The brand's letter-spacing value has no unit specified; do not interpret it as 30-60 CSS pixels.\n")
     context += "".join(section(p, read(p)) for p in CONTEXT_FILES)
     formats = f"# TMC Formats\n\nPack version: {VERSION}\n\n"
-    formats += "Read only the relevant sections. The extensions at the end adapt external guidance and add Facebook, static posts, document carousels and nurture sequences. Video is deferred. TMC_WORKFLOW.md controls job state, permissions and tool availability. Repository-relative paths in source sections are provenance; use this pack's context and workflow equivalents. No other skill installation is required.\n"
+    formats += "Read only the relevant sections. The extensions at the end adapt external guidance and add Facebook, static posts, document carousels and nurture sequences. Video scripts are covered by tmc-reel; video production is deferred. TMC_WORKFLOW.md controls job state, permissions and tool availability. Repository-relative paths in source sections are provenance; use this pack's context and workflow equivalents. No other skill installation is required.\n"
     for name in FORMAT_SKILLS:
         path = f"skills/{name}/SKILL.md"
         formats += section(path, body(read(path)))
@@ -109,7 +116,8 @@ def build(parent):
 
     def write(path, content):
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content, encoding="utf-8", newline="\n")
+        with open(path, "w", encoding="utf-8", newline="\n") as handle:
+            handle.write(content)
 
     for filename, content in docs.items():
         write(project / filename, content)
