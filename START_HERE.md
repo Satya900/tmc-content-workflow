@@ -1,6 +1,6 @@
 # TMC Content Engine
 
-Current focus: non-video content in ChatGPT Desktop and Claude Desktop.
+Current focus: content (non-video production) in ChatGPT Desktop and Claude Desktop, using release 0.2.0: seven content buckets, audience personas and the content generation playbook from TMC's own documents (see docs/SOURCE_DOCUMENTS.md).
 
 The working foundation is now in system/. Read docs/DESKTOP_SETUP.md for installation and docs/SKILL_RESEARCH.md for the selected online skills and source decisions. Generated releases are under dist/. Each includes matching project knowledge files and a Claude-compatible native skill ZIP.
 

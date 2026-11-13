@@ -4,10 +4,14 @@
 - Master idea ID:
 - Source IDs/files:
 - Category: TOUR / MARKETING
-- Audience:
+- Audience (one primary) and school segment if targeted:
+- Content bucket (one primary, 1 to 7):
+- Need or emotion (Fear / Pain point / Problem / Need / Desire / Fantasy + item):
+- Content angle (one of 33):
+- Programme (day trip / domestic / international / general):
 - Requested formats/accounts:
 - Topic and core message:
-- Objective / pillar / funnel stage:
+- Objective / funnel stage:
 - CTA and verified destination, if any:
 - Current app and pack version:
 - Assumptions:
@@ -45,4 +49,4 @@
 
 ## Tracker update
 
-Content ID | Asset ID | Platform | Pillar | Status | Version | File link | Publish date | Live URL
+Posting date | Platform | Content bucket | Needs and emotions | Delivery type | Topic | Status | Caption | Content ID | Version | File link | Live URL

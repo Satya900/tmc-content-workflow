@@ -10,7 +10,7 @@ description: Use this skill whenever the user asks to select, rank, tag, sequenc
 Choose photos that best tell the actual trip story.
 
 ### MARKETING
-Start from the marketing message, then find photos that support each narrative role.
+Start from the marketing message, then find photos that support each narrative role. Match the photo to the asset's content bucket: preparation and supervision for bucket 2, teachers facilitating for buckets 3 and 4, students working on a task for buckets 1 and 5.
 
 ## Required checks
 Before selecting:
@@ -34,7 +34,8 @@ If these are unknown, flag `PERMISSION UNKNOWN`.
 - scene
 - activity
 - emotion
-- themes
+- content buckets the photo could support (1 to 7)
+- programme (day trip, domestic, international)
 - composition
 - text-space
 - visual_quality

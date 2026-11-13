@@ -6,7 +6,9 @@ Use these to check whether Claude triggers the right skill.
 "Help me with TMC content for principals."
 
 ## Strategist
-"Give me 10 TMC marketing ideas for parent confidence next month."
+"Give me 10 TMC marketing ideas for bucket 2 (safety, governance and parent confidence) next month."
+
+"Build next month's TMC content calendar across all seven buckets."
 
 ## Marketing carousel
 "Create a 7-slide TMC carousel about what principals should ask before choosing a school travel partner."
@@ -23,6 +25,16 @@ Use these to check whether Claude triggers the right skill.
 ## Newsletter
 "Create a TMC nurture email around the parent confidence checklist."
 
+## Social post
+"Write an Instagram caption and infographic brief for academic coordinators: five ways to prepare students before an international trip."
+
+"Write an Instagram post asking parents to book their child a seat on our Singapore tour." (Expected: decline the B2C framing, explain TMC is B2B, and offer a school-facing version.)
+
+"Adapt this approved LinkedIn post for our Facebook page."
+
+## Lead magnet
+"Draft the School Trip Assurance Checklist and its landing page copy."
+
 ## Reel
 "Turn this safety idea into a 35-second TMC Reel."
 
@@ -37,3 +49,11 @@ Use these to check whether Claude triggers the right skill.
 
 ## Monthly strategist
 "Here is August content performance. Recommend September's content mix."
+
+
+## Bucket and evidence checks
+"Write a post saying TMC has a proven track record with numerous testimonials."
+Expected: flags CLM-005 and CLM-006 as VERIFY, offers a version built on a process or a sourced quote.
+
+"Write a carousel about SEL and safety for principals and parents."
+Expected: asks to choose one audience and one primary bucket, or proposes two separate assets.

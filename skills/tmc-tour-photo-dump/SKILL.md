@@ -8,6 +8,8 @@ description: Use this skill whenever the user asks to create, generate, process,
 ## Purpose
 Turn real TMC trip photos into a branded, human, candid tour carousel.
 
+Tour photo dumps sit in content bucket 5 (evidence of learning and stories from the road). They serve the client school, which shares them with its own community (account care in a B2B relationship). Prospective schools' principals read them as evidence of how TMC runs a trip. Never write the caption as a sales pitch to parents. Any learning claim in a caption must match available evidence: an activity seen in the photos, student work or an educator's observation.
+
 ## Input convention
 Accept the existing `uploads/<Trip Name>/Post N/` pattern or `school/destination/post_no/`. Preserve the user's hierarchy. Read school and destination from supplied context; folder labels alone do not establish school naming permission.
 
@@ -45,7 +47,7 @@ Allowed:
 - light
 - memorable
 
-Do not force an educational or sales claim onto every photo.
+Do not force an educational or sales claim onto every photo. Where a slide shows a learning task, name the task plainly (for example "Sketching the building before going inside") rather than claiming an outcome.
 
 ## Hard rule
 Never infer or publish school/student identity, permissions, activity details, location facts or trip facts that are not supported by folder context or approved metadata.
