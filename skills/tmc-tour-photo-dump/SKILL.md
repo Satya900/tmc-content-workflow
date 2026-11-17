@@ -8,7 +8,7 @@ description: Use this skill whenever the user asks to create, generate, process,
 ## Purpose
 Turn real TMC trip photos into a branded, human, candid tour carousel.
 
-Tour photo dumps sit in content bucket 5 (evidence of learning and stories from the road). They serve the client school, which shares them with its own community (account care in a B2B relationship). Prospective schools' principals read them as evidence of how TMC runs a trip. Never write the caption as a sales pitch to parents. Any learning claim in a caption must match available evidence: an activity seen in the photos, student work or an educator's observation.
+Tour photo dumps usually sit in bucket 3 (service proof: how TMC runs a trip) or bucket 5 (student experience shown, not claimed). They serve the client school, which shares them with its own community (account care in a B2B relationship). Prospective schools' principals read them as evidence of how TMC runs a trip. Never write the caption as a sales pitch to parents. Any learning claim in a caption must match available evidence: an activity seen in the photos, student work or an educator's observation.
 
 ## Input convention
 Accept the existing `uploads/<Trip Name>/Post N/` pattern or `school/destination/post_no/`. Preserve the user's hierarchy. Read school and destination from supplied context; folder labels alone do not establish school naming permission.
@@ -54,3 +54,6 @@ Never infer or publish school/student identity, permissions, activity details, l
 
 ## Desktop production
 Use `system/WORKFLOW.md` (or bundled TMC_WORKFLOW.md) for output contracts, versions and approval. Use an available renderer only after checking its capabilities. `tmc-carousel-pipeline` is an optional adapter for an existing open-carrusel installation, not a required desktop service. If rendering is unavailable, return copy and a design brief with RENDERING_PENDING. Existing rendered files do not establish human approval or publication.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

@@ -27,13 +27,14 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageStat
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
 
+from lint_copy import RESTRICTED_RE
 from tmc_fonts import find_fonts
 
 ROOT = Path(__file__).resolve().parents[1]
 CYAN = (26, 175, 224)
 DEEP = (14, 127, 166)
 WHITE = (255, 255, 255)
-BAN = r'\b(skyrocket|revolutionize|unlock|unveil|illuminate|paradigm|realm|esteemed|remarkable|testament|stark|however|kindly)\b|[—;!]'
+BAN = RESTRICTED_RE.pattern + r'|[—–;!#\u201c\u201d\u2018\u2019]'
 CONSENT_OK = {'APPROVED', 'NOT_APPLICABLE'}
 MAX_OVERLAY_WORDS = 10
 

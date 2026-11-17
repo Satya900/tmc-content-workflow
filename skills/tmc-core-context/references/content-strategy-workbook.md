@@ -4,13 +4,15 @@ Based on: the Content Generation workbook (99 pages). Each exercise it asks a bu
 
 Topic sets, blog titles, interview lists and calendar rows built from these answers are in `topic-bank.md`.
 
+> **Amended by the bucket 1 review brief (5 November 2026).** The seven-bucket numbering used below is superseded by five buckets (`content-buckets.md`). Parents are now a secondary audience reached through school routes (section 1). Fears, pain points and fantasies are not used for bucket 1. Treat sections 3 and 4 as idea material. A bucket's review reference always takes precedence.
+
 ---
 
 ## 1. Determine: customer focus
 
 **Workbook question: "What is your customer focus? [B2C, B2B or B2Ch]"**
 
-**Answer: B2B (business to business). The school is the customer.**
+**Answer: B2B (business to business), B2B-led. The school is the customer.** Parents and guardians are a secondary audience reached through school routes (bucket 1 brief).
 
 | Option | What it would mean for TMC | Decision |
 |---|---|---|
@@ -20,12 +22,12 @@ Topic sets, blog titles, interview lists and calendar rows built from these answ
 
 ### What B2B means in every TMC asset
 1. **Reader.** The primary reader of every MARKETING asset is a school role: owner or trustee, management, principal, academic coordinator or HOD, or teacher.
-2. **Parents and students are voices, not targets.** Their words, work and experiences are evidence that helps a school assess TMC. Content never asks parents or students to book, enquire or pressure their school.
+2. **Parents are a secondary audience, students tertiary, both reached through the school.** Parents and guardians fund participation, give consent and judge affordability, so parent-friendly versions are made (for example the B1-02 and B1-03 carousels). Parent material directs questions to the school coordinator. Student material invites preferences through teachers or parents. Content never asks parents or students to book with TMC, never collects them as sales leads, and never pressures a school through them.
 3. **The account is the school.** A sale is a programme agreement with a school. A lead is a school contact. Success is a qualified conversation with a school decision-maker.
 4. **Calls to action point to the school.** For example: download a planning checklist, book a programme design conversation, or forward a resource to a colleague. Never "book your child's seat".
 5. **Channel tactics come only from the workbook's B2B sections.** Its B2C tactics (shops, shopping tags, consumer discounts, user contests, cart recovery, flash sales) and B2Ch tactics (partner catalogues, channel incentives) are not used.
 6. **Content arms the buying committee.** A school decision involves several people, so content must help one person make the case to the others.
-7. **Parent-facing material is a service to the school.** A parent briefing pack or consent explainer is made for the school to send, branded for or with the school. It is not TMC marketing to parents.
+7. **Parent-facing material travels through the school.** It is supplied to the school (parent WhatsApp groups, school email) or published openly (Instagram, Facebook) for understanding. Parent resources are not gated.
 8. **TOUR content serves the client school.** Trip documentation is account care. The school shares it with its own community, and other schools read it as proof of how TMC runs a trip.
 
 ---
@@ -55,8 +57,8 @@ School segments A to D (internal, never published) are in `audience-personas.md`
 | Principal | Champion and approver. Often the first serious contact | Principal, head of school, vice principal | 40 to 60 | Postgraduate in education | Curriculum fit, safety, parent confidence, timetable, staff assignment |
 | Academic coordinator or HOD | Evaluator and co-designer | Academic coordinator, HOD, curriculum lead, SEL coordinator | 30 to 50 | Postgraduate, B.Ed or M.Ed | Learning objectives, mapping, assessment, pre- and post-trip work |
 | Teacher (trip lead) | User and influencer. Delivers the programme | Class teacher, subject teacher, activity coordinator | 25 to 50 | Graduate, B.Ed | Supervision workload, activity quality, student response |
-| Parents | Voice and indirect influence. Not a buyer | PTA members, class representatives | 30 to 50 | Varied | Consent, sentiment, word of mouth to the school |
-| Students | Beneficiaries and voice. Not a buyer | KG to grade 12 | 5 to 18 | n/a | Their work and reflections are the evidence |
+| Parents and guardians | Secondary audience. Fund participation, consent, judge affordability. Not a sales lead | PTA members, class representatives | 30 to 50 | Varied | Consent, sentiment, word of mouth to the school |
+| Students | Tertiary audience via school and parent routes. Not a sales lead | KG to grade 12 | 5 to 18 | n/a | Their work and reflections are the evidence |
 
 Gender is not a targeting field for TMC. Age ranges are planning estimates.
 
@@ -294,13 +296,13 @@ Main readers: management, principal, owner or trustee.
 | LinkedIn | Primary lead channel | Insight posts, document carousels, case studies, polls for educators, education leadership groups, webinars for principals | Ads (out of scope this release) |
 | Email | Nurture and conversion | Segment by role, school segment and interaction. Nurture sequences. Share guides and case studies. Test subject lines. Follow up on engagement | Cart recovery, coupons, flash offers |
 | WhatsApp | Direct relationship channel | Business account, quick replies for FAQs, opted-in broadcast lists of school contacts, personalised follow-ups, status for updates | Consumer catalogues, mass promotions to parents |
-| Instagram | Proof and culture | Behind the scenes, carousels that explain processes, story highlights for case studies and FAQs, relevant education hashtags, personal replies to school enquiries | Shopping tags, consumer contests, trend-chasing |
+| Instagram | Proof and culture | Behind the scenes, carousels that explain processes, story highlights for case studies and FAQs, personal replies to school enquiries | Shopping tags, consumer contests, trend-chasing |
 | Facebook | Proof and community | Complete business page, guides and case studies, participation in educator groups without promotion | Shops, consumer ads, user contests |
 | SEO and blog | Being found during research | Keyword research from the list above, informative posts answering school questions, on-page SEO, backlinks from education sites | Consumer product pages |
 | SMS | Reminders only | Consent-based reminders and post-meeting follow-ups to school contacts during business hours | Flash sales, promotions |
 | Google Business Profile | Trust when a school searches for TMC | Relevant: TMC is a service business that schools search for. Complete profile, real reviews from schools, reply to every review | Fake or solicited reviews |
 | YouTube | Deferred (video) | Webinars, explainers, educator interviews, school testimonials | Unboxing, consumer product reviews |
-| X | Not in scope | Consider only after the channels above work. Then: real-time education conversations, one or two hashtags | Lead generation |
+| X | Not in scope | Consider only after the channels above work. Then: real-time education conversations | Lead generation |
 
 ### Role of the business owner
 The workbook lists what a business owner should and should not do. For TMC:
@@ -324,7 +326,7 @@ Some lines in the guide mention parents and students as marketing targets. Read 
 | Lead generation: "engage with school decision-makers, parents, and students to generate inquiries and bookings" | Leads are school contacts. Parent and student engagement supports a school's decision and is never a lead source |
 | Email: "regular newsletters to schools and parents" | Newsletters go to school contacts. Parent communication is a service TMC provides through the school |
 | Promotional content: "special offers and promotions to encourage bookings" | Only school-level programme offers with commercial approval. No consumer discounts |
-| Engaging content: "quizzes, polls, and contests" | Polls and quizzes for educators. No student or parent contests used to generate leads |
+| Engaging content: "quizzes, polls, and contests" | Polls for educators. Contests and entertainment are deferred for bucket 1 |
 | Online advertising: "Google Ads and Facebook Ads targeting schools, parents" | Paid ads are out of scope this release. If added later, target school roles only |
-| Secondary audience: parents as "influencers who support and enable school decisions" | Kept. Parents are voices and indirect influence, reached through the school |
+| Secondary audience: parents as "influencers who support and enable school decisions" | Kept and strengthened by the bucket 1 brief: parents fund, consent and judge affordability. Reached through the school |
 | KPI: "feedback from schools, parents, and students" | Kept. Feedback is collected for and with the client school, and becomes evidence only with permission |

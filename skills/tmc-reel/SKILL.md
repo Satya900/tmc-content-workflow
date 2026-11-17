@@ -7,6 +7,8 @@ description: Use this skill whenever the user asks for a TMC Reel, Instagram Ree
 
 Scope: video scripts, on-screen text, shot lists and captions can be drafted as text assets. Filming, editing and rendering video are deferred in this release. Mark video assets `RENDERING_PENDING` after the script is approved.
 
+Bucket 1 recommends two informational YouTube videos, embedded in their blogs: a comparison video (B1-01) and a trade-off video (B1-04). Interviews, live Q&A and promotional videos are deferred for bucket 1.
+
 ## Hook timing
 1 second on Instagram Reels and YouTube Shorts. 3 seconds on YouTube, Facebook, LinkedIn and WhatsApp.
 
@@ -58,3 +60,9 @@ Thumbnail with title and image, brand guidelines, plain or appealing background,
 - Caption
 - CTA
 - Claim and permission flags
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

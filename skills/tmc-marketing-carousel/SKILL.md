@@ -48,7 +48,7 @@ Use 6 to 9 slides when suitable. Do not force a fixed count. A count in the hook
 - Specific language.
 - Do not overuse TMC branding in the copy.
 - CTA optional, usually only at the end.
-- Brand caption rules apply.
+- Writing standards apply (`writing-standards.md`). Write display text in sentence case. Staatliches renders it in capitals.
 
 ## Visual logic
 For photo slides give: subject, scene, emotion, composition and text-space requirement, destination flexibility. Then pass to `tmc-photo-selector`. For graphic slides use brand colours, the logo, blank space and at most one line icon.
@@ -63,3 +63,9 @@ Any safety, educational, statistical, school, price, testimonial or outcome clai
 - Caption brief for each platform (Instagram, LinkedIn document post, Facebook)
 - Alt text after visuals are final
 - Claim checklist
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

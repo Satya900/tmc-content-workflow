@@ -11,7 +11,7 @@ Content marketing creates content that adds value only to the target audience, e
 
 ## Core principles, adapted for TMC
 1. **Leads over followers.** Success is qualified school conversations, not follower counts.
-2. **Volume and consistency, inside the evidence rules.** The workbook says "quantity first, quality second". For TMC that means publishing consistently at the planned cadence instead of waiting for perfect pieces. It never permits skipping fact checks, consent checks or human review.
+2. **Quality and relevance before quantity.** The workbook says "quantity first, quality second". TMC's bucket 1 brief reverses this: quality and relevance take priority, and no monthly quota is fixed. Consistency still matters once a calendar is agreed. Nothing permits skipping fact, consent or review checks.
 3. **One target group per asset.** Write for one primary reader.
 4. **Data is your mentor.** Monthly results decide what to continue, improve, test, reduce or stop.
 
@@ -20,18 +20,18 @@ Run it for every MARKETING idea. Record the result in the job record or calendar
 
 ### 1. Determine: who is this for?
 TMC's focus is B2B (business to business). The school is the customer. Not B2C, not B2Ch. Rules: `content-strategy-workbook.md`, section 1.
-- Choose one primary audience, always a school role: owner or trustee, management, principal, academic coordinator or HOD, or teacher. Parents and students are voices and evidence, never the target audience.
+- Choose one primary audience. Usually a school role with actual authority, influence and programme need: owner or board member, management or administrator, principal, coordinating teacher. A parent-facing version (secondary audience) is its own asset, reached through school routes. Students are reached only through school or parent routes.
 - Use the buying committee map in `content-strategy-workbook.md` to decide who in the school the piece must help, and who they will forward it to.
 - Note the school segment (A, B or C) if the piece targets one.
 - Use the persona profile to set vocabulary, depth and what the reader is busy with.
 
 ### 2. Define: which content bucket?
-Content buckets are the broad areas the customer wants to learn about while buying. TMC has seven (`content-buckets.md`). Choose exactly one primary bucket.
+Content buckets are the broad areas the customer wants to learn about while buying. TMC has five, reviewed one at a time (`content-buckets.md`). Choose exactly one primary bucket and, where agreed, its topic ID (for example B1-01).
 
 The bucket research behind them answered five questions: what customers love to learn before buying, the questions they ask before buying, the top topics TMC can educate on, TMC's product lines, and the top keywords. The B2B answers are in `content-strategy-workbook.md`, section 3.
 
 ### 3. Decode: which need or emotion?
-Break the customer's state into one of six categories, from negative to positive:
+Break the customer's state into one of six categories, from negative to positive. Each bucket's review decides which categories it uses: decode only distinct, useful needs and emotions. Bucket 1 uses only Problems, Needs and Desires.
 
 | Category | Question it answers |
 |---|---|
@@ -42,7 +42,7 @@ Break the customer's state into one of six categories, from negative to positive
 | Desires | What would my customer love to have? |
 | Fantasies | What would be a dream come true for my customer? |
 
-Pick one specific item from the bucket tables in `content-strategy-workbook.md`, section 4, for example "Principal, bucket 7: proposals can't be compared like for like (Problem)". Earlier TMC files used "Aspiration". Treat it as Fantasies.
+Pick one specific item from the bucket's locked decode, for example "Bucket 1, Problems: assess whether a higher-priced proposal offers sufficient additional value". Earlier TMC files used "Aspiration". Treat it as Fantasies.
 
 ### 4. Develop: which content angle?
 Every topic can be expressed through one of 33 angles. Pick the angle that answers the decoded emotion most usefully. TMC examples are written for principals unless noted. Angles marked ⚠ need verified evidence before use.
@@ -84,6 +84,18 @@ Every topic can be expressed through one of 33 angles. Pick the angle that answe
 | 33 | Memes | Use sparingly. Never with identifiable students. Usually unsuitable for LinkedIn |
 
 Angles 31 to 33 suit teacher audiences on Instagram. Use them rarely, and never for owners, trustees or management. Three fully worked 33-angle sets are in `topic-bank.md`.
+
+## TMC's reusable method for every bucket
+From the bucket 1 brief:
+1. Determine the relevant school and reader.
+2. Define the bucket and its subcategories.
+3. Decode only distinct, useful needs and emotions.
+4. Develop a small topic shortlist using suitable workbook approaches.
+5. Match delivery to the answer, then distribution to the reader.
+6. Record evidence, next action and success measures.
+7. Separate observed facts from assumptions throughout.
+
+The shortlist goes to Yasin and Aishwarya for selection (Select, Revise, Hold, Drop). Only selected items are produced.
 
 ## Idea record
 Each idea leaving the 4D process carries: audience, school segment (if any), bucket, emotion (category and item), angle, topic, hook, core message, proof needed, funnel stage, best format and platform. Field definitions: `content-taxonomy.md`.

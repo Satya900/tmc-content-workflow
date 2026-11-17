@@ -1,6 +1,6 @@
 # TMC desktop setup
 
-Release 0.2: a shared instruction pack for TMC content (video scripts included, video production excluded). Both apps receive identical knowledge and operating rules. Native integrations and rendered outputs depend on each session's actual tools. This release has not been installed or tested inside either target account.
+Release 0.3: a shared instruction pack (five-bucket structure, bucket 1 reviewed) for TMC content (video scripts included, video production excluded). Both apps receive identical knowledge and operating rules. Native integrations and rendered outputs depend on each session's actual tools. This release has not been installed or tested inside either target account.
 
 ## Shared project-file route (both apps)
 

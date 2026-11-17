@@ -16,7 +16,16 @@ A lead magnet is something useful a school leader receives in exchange for conta
 | Community | WhatsApp or Facebook group | Teacher community for trip leaders (needs moderation and consent rules) |
 | Promotional | Free consultation, free design | Free programme design consultation (needs commercial approval) |
 
-Prefer solution-based magnets for principals and management. They map well to buckets 2, 4 and 7.
+Prefer solution-based magnets for principals and management.
+
+## Agreed: B1-LM programme selection and comparison kit (bucket 1)
+Spec in `bucket-1-programme-choice-price-value.md`. Pending selection.
+- Contents: a programme brief, a side-by-side quotation worksheet, the seven booking questions (B1-03).
+- Form: name, school, role, work email. Offer an optional programme discussion separately, never as a required field.
+- Parent resources stay freely accessible, never gated.
+- Placement: website download page, linked from posts, articles, video descriptions and school emails.
+- A download signals interest, not a qualified opportunity. Qualification (grade, approximate group size, dates, budget) happens in Nadeem's follow-up.
+- Tracking and form setup: Jihad.
 
 ## Brief
 - Audience and school segment
@@ -53,3 +62,9 @@ Plan the email sequence (`tmc-newsletter`), 2 to 4 social posts and any blog tha
 - Delivery email
 - Promotion plan
 - Open implementation requirements and claim flags
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

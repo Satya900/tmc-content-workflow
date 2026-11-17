@@ -2,6 +2,8 @@
 
 Based on: the Content Generation workbook's Develop exercise ("33 ways of creating content topics": one target customer, one bucket, one emotion) and its delivery exercises (blog titles, interviews, testimonials, lead magnets, calendar). Built on the answers in `content-strategy-workbook.md`. Every topic is written for a school role.
 
+> **Superseded numbering.** This bank uses the seven-bucket numbering of 15 October 2026. Map with `content-buckets.md`. For bucket 1 (programme choice, price and value) the agreed shortlist is B1-01 to B1-05 in `bucket-1-programme-choice-price-value.md`. Develop exercise 1 below is useful background for B1-01, but it is not the shortlist. No item here is a production commitment.
+
 These are starting topics, not approved content. ⚠ means the topic needs verified evidence, a sourced quote or permission before drafting. Counts in titles must match what is delivered. Topics that describe TMC's own process need that process confirmed (claims register).
 
 ---
@@ -201,8 +203,8 @@ Optional for management: "How did the planning and approval process compare with
 
 ---
 
-## Marketing calendar sample (B2B)
-The workbook's sample, rewritten for TMC. Full column set: `measurement-and-calendar.md`.
+## Marketing calendar sample (illustrative only)
+The workbook's sample, rewritten for TMC. **No calendar is fixed**: dates and placements will come from Yasin's calendar template, for selected items only. Bucket numbers in this table use the old seven-bucket numbering. Full column set: `measurement-and-calendar.md`.
 
 | Posting date | Platform | Content bucket | Needs and emotions | Content strategy | Content topic | Status | Caption (first line) |
 |---|---|---|---|---|---|---|---|

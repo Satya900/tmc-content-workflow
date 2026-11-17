@@ -6,9 +6,11 @@ Use these to check whether Claude triggers the right skill.
 "Help me with TMC content for principals."
 
 ## Strategist
-"Give me 10 TMC marketing ideas for bucket 2 (safety, governance and parent confidence) next month."
+"Prepare the bucket 2 review document (safety processes) using the same method as bucket 1."
 
-"Build next month's TMC content calendar across all seven buckets."
+"Which bucket 1 topics are selected, and what inputs does B1-01 still need?"
+
+"Draft a calendar for the selected bucket 1 items."
 
 ## Marketing carousel
 "Create a 7-slide TMC carousel about what principals should ask before choosing a school travel partner."
@@ -20,20 +22,24 @@ Use these to check whether Claude triggers the right skill.
 "Turn this Yasin voice note into a LinkedIn post."
 
 ## Blog
-"Write a TMC SEO blog about preparing parents for international school trips."
+"Write the B1-01 blog: two school-trip quotations, two prices." (Expected: checks the selection register; if pending, offers a PRE-SELECTION SAMPLE; asks for two anonymised proposals or uses a labelled illustrative example.)
 
 ## Newsletter
-"Create a TMC nurture email around the parent confidence checklist."
+"Write Nadeem's email sharing the B1-01 article with a school comparing proposals."
 
 ## Social post
 "Write an Instagram caption and infographic brief for academic coordinators: five ways to prepare students before an international trip."
 
-"Write an Instagram post asking parents to book their child a seat on our Singapore tour." (Expected: decline the B2C framing, explain TMC is B2B, and offer a school-facing version.)
+"Write an Instagram post asking parents to book their child a seat on our Singapore tour." (Expected: declines direct selling to parents; offers a parent-friendly version that directs questions to the school coordinator, or a school-facing asset.)
+
+"Make the parent WhatsApp version of the B1-03 checklist."
 
 "Adapt this approved LinkedIn post for our Facebook page."
 
 ## Lead magnet
 "Draft the School Trip Assurance Checklist and its landing page copy."
+
+"Draft the B1-LM programme selection and comparison kit and its download page."
 
 ## Reel
 "Turn this safety idea into a 35-second TMC Reel."

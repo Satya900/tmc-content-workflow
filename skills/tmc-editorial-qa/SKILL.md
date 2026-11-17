@@ -7,6 +7,8 @@ description: Use this skill whenever the user asks to review, approve, improve, 
 
 QA is one model's review. It returns PASS, REVISE or BLOCK and never records human approval.
 
+Be direct and ruthless. Do not soften a verdict to be polite. Name every gap, contradiction and weak assumption, then give the better option. A draft with restricted words, banned punctuation or an unsupported claim cannot PASS.
+
 ## Review order
 1. Strategy fit
 2. Audience fit
@@ -27,8 +29,10 @@ QA is one model's review. It returns PASS, REVISE or BLOCK and never records hum
 - Does the angle answer the decoded need or emotion?
 
 ### Audience
-- One primary reader, and is it a school role? (TMC is B2B. Parents and students may appear as voices, never as the target.)
-- Does the CTA ask a school, not a family, to act?
+- One primary reader? School decision-makers first. A parent-facing version is allowed as its own asset, reached through the school, with questions directed to the school coordinator.
+- Does any asset sell directly to parents or students, or collect them as leads? If yes, BLOCK.
+- For a topic ID: is the item selected in its bucket's register? If not, the asset must be headed `PRE-SELECTION SAMPLE` and cannot pass beyond REVIEW.
+- Does it meet the item's useful answer and required input in the bucket reference?
 - Is the problem meaningful to that reader (check `audience-personas.md`)?
 - Is internal planning language absent (school segment labels, product funnel labels, targets)?
 
@@ -45,7 +49,8 @@ Reject:
 - jargon-heavy academic phrasing
 - fake founder voice
 - fear-based safety hooks
-- banned words and punctuation from `brand-brief.md` (em dashes, semicolons, exclamation marks, and the listed words)
+- any breach of `writing-standards.md`: restricted words (may, can, just, that, could and the rest), em or en dashes, semicolons, exclamation marks, emojis, hashtags, curly quotes, markdown dividers, letter framing, setup phrases, contrast patterns (X not Y, X but Y), stacked adjectives, title-case headings, one-sentence paragraphs
+- run `python3 scripts/lint_copy.py <draft file>` first where a terminal is available. Any ERROR means REVISE at least. Then check the judgement rules the script cannot catch
 
 Prefer: warm authority, specific examples, practical usefulness, honest complexity.
 
@@ -75,6 +80,7 @@ Clarity, voice, relevance, evidence, specificity, human tone, next step. See `sy
 - PASS / REVISE / BLOCK
 - Issues by severity
 - Exact lines or sections to change
-- Corrected version when appropriate
+- Weakest point of the draft, stated plainly
+- Corrected version when appropriate, delivered clean (no tracked fixes inside the copy)
 - Claims requiring verification
 - Permission and media concerns

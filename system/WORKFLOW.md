@@ -1,14 +1,14 @@
-# TMC workflow, release 0.2
+# TMC workflow, release 0.3
 
 ## Scope and authority
 
 This release supplies the instruction and handoff layer for TMC content: LinkedIn, Instagram, Facebook, WhatsApp and other social posts, carousels, tour photo posts, blogs, newsletters and sequences, lead magnets, case studies, website copy, calendars and monthly reviews. Video scripts may be drafted as text. Filming, editing and rendering video remain out of scope. This release does not install renderers, connect accounts, send email or publish content. Use the user's requested formats; repurposing into every format is optional.
 
-Business positioning, audience and content buckets come from TMC core context, which follows the TMC content marketing approval brief (v1, 15 October 2026). Visual identity and caption restrictions come from brand-brief.md. Where that brief makes numerical contrast claims, use the measured contrast clarification included in TMC_CONTEXT.md. Format rules sit below these shared rules. External skill examples are not verified TMC facts.
+Business positioning, audience and content buckets come from TMC core context. The bucket review briefs (bucket 1: 5 November 2026) take precedence over the approval brief of 15 October 2026: five buckets, reviewed one at a time, with Bengaluru schools as the year-one market. TMC is B2B-led: school decision-makers first, parents and guardians secondary through school routes, students tertiary through school and parent routes, and neither parents nor students are collected as sales leads. Visual identity and caption restrictions come from brand-brief.md. Where that brief makes numerical contrast claims, use the measured contrast clarification included in TMC_CONTEXT.md. Format rules sit below these shared rules. External skill examples are not verified TMC facts.
 
 ## Start and resume
 
-For a new job, gather only the information needed for the next useful action: source or topic, TOUR/MARKETING, audience, requested formats and any required claim or media permissions. For MARKETING, record the 4D fields: audience (Determine), one primary content bucket from 1 to 7 (Define), one need or emotion (Decode) and one content angle (Develop). Assign the bucket yourself when the brief makes it clear and label it as an assumption. Infer ordinary format choices and label assumptions. Do not interrogate the user about every taxonomy field.
+For a new job, gather only the information needed for the next useful action: source or topic, TOUR/MARKETING, audience, requested formats and any required claim or media permissions. For MARKETING, record the 4D fields: audience (Determine), one primary content bucket from 1 to 5 and its topic ID where agreed (Define), one need or emotion from the categories the bucket locked (Decode) and one content angle (Develop). Assign the bucket yourself when the brief makes it clear and label it as an assumption. Infer ordinary format choices and label assumptions. Do not interrogate the user about every taxonomy field.
 
 For a resumed job, read its latest job.md, draft version, sources and review notes. Identify the authoritative version. If two apps edited the same version, show the differences and resolve the conflict before recording a new approved version. Never combine approval from one version with content from another.
 
@@ -19,6 +19,12 @@ Check capabilities only as needed: supplied knowledge readable, images viewable,
 Keep source IDs with facts and exact quotes. Distinguish internal TMC claims from external research. For time-sensitive research record URL, publisher and checked date. A claims template is not an approved claims register. Missing statistics may be omitted; an invented replacement is never acceptable.
 
 For identifiable trip media record applicable student, parent, school and staff permissions, permitted channels, marketing-use scope, expiry/revocation when known, and anonymisation needs. Each category can be APPROVED, DENIED, UNKNOWN or NOT_APPLICABLE with a reason. UNKNOWN does not mean permission granted. Pause use of affected photos; a text-only alternative may proceed. Do not identify students or infer consent from file presence. Preserve original files.
+
+## Bucket selection gate
+
+Each bucket has a shortlist of topic IDs and a selection register (bucket 1: B1-01 to B1-05 and B1-LM). Yasin and Aishwarya review all five buckets and record Select, Revise, Hold or Drop. Final copy is produced only for selected items, after Yasin returns them with final wording, formats, channels and supporting material. For an item still pending, record the decision if the user supplies it; otherwise produce a draft only on explicit request, headed PRE-SELECTION SAMPLE: not for publication, and keep it at REVIEW. Hold and Drop items are not produced.
+
+Review roles: Aishwarya reviews content and adaptations. Yasin supplies judgment and examples and gives commercial approval. Operations verifies terms, prices, inclusions and delivery claims. Jihad handles SEO and website tracking. Nadeem owns school replies, qualification and follow-up.
 
 ## Job files
 
@@ -39,7 +45,7 @@ Normal progression: INTAKE -> DRAFT -> REVIEW -> APPROVED -> EXPORTED -> PUBLISH
 - EXPORTED means the approved version's required final files exist and have been checked.
 - PUBLISHED requires a live URL or an explicit user report. Label user-reported publication if not independently checked.
 
-The assistant can finish a draft and self-QA in one turn. Human review is necessary before publication. Do not ask repeatedly for the same already-provided permission.
+Every draft runs the writing-standards self-check before it reaches REVIEW. In the repository, `python3 scripts/lint_copy.py <draft file>` must report 0 errors. In a desktop app without a terminal, apply the self-check by hand and say so in the review file. The assistant can finish a draft and self-QA in one turn. Human review is necessary before publication. Do not ask repeatedly for the same already-provided permission.
 
 ## Output contracts
 
@@ -65,9 +71,9 @@ Website asset: page copy, headings, CTA/form requirements, metadata and implemen
 
 Keep one source ID and master idea across adaptations. Rewrite hooks, density and account voice for each platform. Do not invent an anecdote to personalise Yasin's version.
 
-Calendars use the columns in measurement-and-calendar.md (posting date, platform, content bucket, needs and emotions, delivery type, topic, status, caption, plus content ID and links). Spread a month across all seven buckets unless the user directs otherwise.
+No posting calendar is fixed. Posting dates, sequence, frequency, accounts, owners and approvals will be agreed in Yasin's calendar template, for selected items only. Until it is supplied, draft calendars use the columns in measurement-and-calendar.md (including topic ID) and are labelled as drafts.
 
-The scope's non-video monthly capacity is 25 placements: 8 personal LinkedIn, 4 company LinkedIn, 4 Instagram, 4 Facebook, 2 email, 2 blog and 1 website asset. PDF carousels occupy an appropriate channel slot, not an extra automatic quota. The five-email checklist nurture sequence is a foundation asset, separate from recurring campaigns. These are planning capacities, not a required output for every request. The Understanding TMC guide sets a larger ideal schedule (see measurement-and-calendar.md). Plan to the contracted capacity unless the user records a change.
+Quality and relevance take priority over quantity. Earlier placement quotas are superseded or provisional. For reference, the original contracted non-video monthly capacity was 25 placements: 8 personal LinkedIn, 4 company LinkedIn, 4 Instagram, 4 Facebook, 2 email, 2 blog and 1 website asset. PDF carousels occupy an appropriate channel slot, not an extra automatic quota. The five-email checklist nurture sequence is a foundation asset, separate from recurring campaigns. These are planning capacities, not a required output for every request. The Understanding TMC guide sets a larger ideal schedule (see measurement-and-calendar.md). Do not plan to fill either number.
 
 Airtable updates remain manual or explicitly connected. Provide a copyable tracker row if disconnected. Monthly analysis uses supplied data and states the reporting window and metric definitions; missing data is unknown, not zero. Recommend Continue, Improve, Test, Reduce or Stop and retain the reasoning for next month's calendar.
 
@@ -75,4 +81,4 @@ Airtable updates remain manual or explicitly connected. Provide a copyable track
 
 The portable baseline is project instructions plus three Markdown knowledge files and the source files for the current job. Native skills are an optional installation route. Generated packages are snapshots: rebuild and replace both apps' copies after editing the canonical files.
 
-The assistant should report exactly what was completed: content draft, QA, rendered preview, approved export or publication. Release 0.2 is structurally validated locally. Live workflow checks in both target accounts and renderer pilots remain separate acceptance work.
+The assistant should report exactly what was completed: content draft, QA, rendered preview, approved export or publication. Release 0.3 is structurally validated locally. Live workflow checks in both target accounts and renderer pilots remain separate acceptance work.

@@ -15,6 +15,21 @@ The knowledge and instruction package is built. End-to-end automation is not com
 - The earlier Brussels carousel export (`output/Europe Batch 3/Post 1`, made by the external open-carrusel tool) was lost on 27 September 2026: a backup `mv` into a sibling folder emptied the destination instead of transferring the files, apparently a OneDrive Files-on-Demand interaction with a raw filesystem rename. The user confirmed treating it as deleted rather than pursuing recovery. The source trip photos in `uploads/Europe Batch 3/Post 1` were unaffected and remain intact. The post was rebuilt from the same story content and photos using the new photo-overlay renderer (see item 3).
 - The costing proposal is a planning artifact, not evidence of a deployed application or connected accounts.
 
+## Update, 17 November 2026: release 0.3.1, writing standards
+
+- New reference `skills/tmc-core-context/references/writing-standards.md`, supplied by the team. It covers stance, style, format, restricted words, a reasoning framework and a self-check, and it is bundled into TMC_CONTEXT.md.
+- New checker `scripts/lint_copy.py` with tests in `scripts/test_lint_copy.py`. The photo carousel renderer now uses the same restricted-word list.
+- Hashtags are removed from every channel rule. LinkedIn moves to paragraphs of two to four sentences. Editorial QA and the strategist skills take a direct, blunt stance.
+- Interpretations to confirm: one-to-one emails stay exempt from the letter rule ("Hi [name]", no "Dear"). Hedges (may, can, could) become stated conditions or VERIFY, never confident claims.
+- The six bucket 1 pre-selection samples (v001) were written before this standard. All six fail the checker and need a v002 before review.
+
+## Update, 14 November 2026: release 0.3.0, bucket 1 reviewed
+
+- The bucket 1 review brief (5 November 2026) is adapted. Five buckets replace seven. Bucket 1, programme choice, price and value, has its own reference (`bucket-1-programme-choice-price-value.md`) with five topics (B1-01 to B1-05), a lead magnet kit (B1-LM), a production guide per item and a selection register.
+- Audience amended: school decision-makers first, parents secondary through school routes, students tertiary. Bengaluru first. Quality before quantity, no fixed calendar.
+- Selection gate added across the system: final copy only for selected items. Smoke tests 15 to 17 added, 11 to 14 updated.
+- All bucket 1 items are pending selection. Buckets 2 to 5 await their review briefs.
+
 ## Update, 2 November 2026: release 0.2.0
 
 - The approval brief (15 October 2026), the Understanding TMC guide and the Content Generation workbook were adapted into the skills. See `docs/SOURCE_DOCUMENTS.md` for what came from where and the open questions.

@@ -17,10 +17,12 @@ TMC content should show that TMC understands school goals, curriculum, student d
 1. Build confidence in TMC.
 2. Generate qualified school conversations.
 
-Year-1 content succeeds when relevant school contacts either reach out to TMC or feel confident responding positively when TMC reaches out. Leads and qualified conversations matter more than followers.
+Year-1 content succeeds when relevant Bengaluru school contacts either reach out to TMC or feel confident responding positively when TMC reaches out. Measure qualified school enquiries, meetings and programme opportunities. Leads and qualified conversations matter more than followers or downloads.
 
 ## Audience
-**Customer focus: B2B.** The school is the customer. TMC does not sell to families (B2C) or through channel partners (B2Ch). Rules: `content-strategy-workbook.md`, section 1.
+TMC is **B2B-led**: the school is the customer and school decision-makers come first. Parents and guardians are a secondary audience because they fund participation, give consent and judge affordability. They are reached through school routes (material supplied to the school, school-led sharing) and parent-friendly carousels, and parent material directs questions to the school coordinator. Students are a tertiary audience, reached only through school and parent routes. Parents and students are never collected as sales leads. Rules: `content-strategy-workbook.md`, section 1, as amended by the bucket 1 brief.
+
+**Year-one market:** Bengaluru schools. **Success:** qualified school enquiries, meetings and programme opportunities.
 
 Full personas, needs and emotions: `audience-personas.md`.
 
@@ -28,22 +30,35 @@ Full personas, needs and emotions: `audience-personas.md`.
 |---|---|---|
 | Decision-makers (primary) | School owners, trustees, management, principals | Default reader for MARKETING content. Write to their decisions: value, risk, approval, reputation, curriculum fit |
 | Influencers | Academic leaders (coordinators, HODs) and teachers | They evaluate and deliver programmes. Content helps them make the case internally and run the experience well |
-| Voices | Parents and students | Their experiences and words help school leaders assess TMC's work. Parents are also an indirect influence on school decisions |
+| Secondary | Parents and guardians | Fund participation, give consent, judge affordability and suitability. Reached through the school and parent-friendly versions. Never captured as sales leads |
+| Tertiary | Students | Interests and readiness influence participation. Reached only through school and parent routes. Their voices are evidence |
 
 Write each asset for one primary audience.
 
 ## Content buckets
-Every asset receives exactly one primary bucket. Definitions, boundaries and evidence rules: `content-buckets.md`.
+Every asset receives exactly one primary bucket. Five buckets, reviewed one at a time (bucket 1 review brief, 5 November 2026). Definitions, status and evidence rules: `content-buckets.md`.
 
-1. Experiential learning and SEL
-2. Safety, governance and parent confidence
-3. Educators and partnerships
-4. Curriculum integration and pedagogy
-5. Evidence of learning and stories from the road
-6. Leadership and vision (Yasin's founder voice)
-7. School programme planning and decisions
+1. Programme choice, price and value (reviewed: `bucket-1-programme-choice-price-value.md`)
+2. Safety processes (provisional)
+3. Service proof (provisional)
+4. School benefits (provisional)
+5. Student development (provisional)
+
+Yasin's founder voice can carry any bucket.
+
+## Team roles in content
+| Person | Role |
+|---|---|
+| Yasin | Judgment, examples, commercial approval, returns selected items |
+| Aishwarya | Reviews content and adaptations |
+| Operations | Verifies terms, prices, inclusions and delivery claims |
+| Jihad | SEO, website tracking, later paid testing |
+| Nadeem | School replies, qualification and follow-up |
+| KK | Experience-based perspective where relevant |
 
 ## Programmes and their commercial role
+Schools move between programmes in both directions (stepping up or down). Never present them as a fixed ladder.
+
 | Programme | Role in the product funnel | Content implication |
 |---|---|---|
 | Day trips | Easy to buy (low effort, low reward) | Entry point for new schools. Low-risk first engagement |
@@ -53,7 +68,7 @@ Every asset receives exactly one primary bucket. Definitions, boundaries and evi
 Do not publish the funnel labels. They guide planning only.
 
 ## SEL framework used in TMC programmes
-TMC frames social-emotional learning (SEL) through seven values. Use them to describe what a programme is designed to develop. Claim an outcome only with evidence (bucket 5 rules).
+TMC frames social-emotional learning (SEL) through seven values. Use them to describe what a programme is designed to develop. Claim an outcome only with evidence (bucket 5 rules). Current student development evidence is mainly feedback, not measured outcomes.
 
 1. **Empathy and compassion:** engaging with local cultures and communities to understand and care for diverse people and perspectives.
 2. **Self-awareness and growth:** reflection that helps students understand their emotional strengths and weaknesses.
@@ -82,7 +97,7 @@ Never write "proven track record", "numerous testimonials", "comprehensive safet
 - Experienced, calm and useful.
 - Educational partner, not travel agent.
 
-Banned words, punctuation and visual rules live in `brand-brief.md` (bundled into TMC_CONTEXT.md). They apply to every asset.
+Banned words, punctuation and visual rules live in `brand-brief.md`, and the full writing standard (restricted words, format rules, reasoning framework, self-check) lives in `writing-standards.md`. Both are bundled into TMC_CONTEXT.md. They apply to every asset. For school-buyer assets, school decision-makers take priority over the brand brief's parent-first wording ("like a class teacher talking to a parent"). Parent-facing versions keep it. Verify text contrast before approving a template.
 
 ## Avoid
 - "Book now", "best prices", package-selling and discount language.
@@ -96,7 +111,7 @@ Banned words, punctuation and visual rules live in `brand-brief.md` (bundled int
 
 ## Two content modes
 ### TOUR
-Purpose: document a real TMC trip. Photos determine the story. Copy may be light, candid, location-based and experience-led. Usual bucket: 5 (stories from the road).
+Purpose: document a real TMC trip. Photos determine the story. Copy may be light, candid, location-based and experience-led. Usual bucket: 3 (service proof) or 5 (student experience shown, not claimed).
 
 ### MARKETING
 Purpose: build positioning, trust, authority and qualified school conversations. Strategy determines the story. Tour photos are visual evidence and emotional support. The copy carries the argument.

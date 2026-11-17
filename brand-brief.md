@@ -53,6 +53,8 @@ Direct, specific, warm — like a class teacher talking to a parent. Name the ac
 
 **Never use:** em dashes, semicolons, exclamation points.
 
+The full writing standard, with the longer restricted-word list (may, can, just, that, could and others), no hashtags, no emojis and the self-check, is `skills/tmc-core-context/references/writing-standards.md`. Run `python3 scripts/lint_copy.py <draft>` before review.
+
 ## Export sizes (from the brand doc's channel table)
 
 - Instagram feed carousel: **1080×1350** (matches open-carrusel's recommended 4:5)
