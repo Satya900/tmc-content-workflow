@@ -13,7 +13,7 @@
 - Topic: Two school-trip quotations, two prices: when is the higher fee worth paying?
 - Objective: help school buyers decide on price and value with confidence, leading to qualified Bengaluru school enquiries
 - CTA: B1-LM kit or a programme discussion (destinations not live)
-- Pack version: 0.3.0
+- Pack version: 0.3.1 (v002), 0.3.0 (v001)
 - Assumptions: recommended formats and channels from the bucket 1 brief are used as given. Final formats and channels are Yasin's to select.
 - Required missing inputs:
   - Two actual anonymised proposals, or approval to publish the labelled illustrative example (figures are invented for method only)
@@ -26,10 +26,10 @@
 
 | Asset ID | Format/account | Version | Status | AI QA | Human decision/date | Output files |
 |---|---|---|---|---|---|---|
-| TMC-20261114-BLOG-001-A1 | Blog, detailed explanation (website) | v001 | REVIEW (pre-selection sample) | PASS with inputs pending | pending | draft-v001.md |
-| TMC-20261114-BLOG-001-A2 | YouTube informational comparison script (embed in A1) | v001 | REVIEW (pre-selection sample) | PASS with inputs pending | pending | draft-v001.md |
-| TMC-20261114-BLOG-001-A3 | LinkedIn, Yasin native extract | v001 | REVIEW (pre-selection sample) | PASS with inputs pending | pending | draft-v001.md |
-| TMC-20261114-BLOG-001-A4 | Email, Nadeem one-to-one to schools evaluating proposals | v001 | REVIEW (pre-selection sample) | PASS with inputs pending | pending | draft-v001.md |
+| TMC-20261114-BLOG-001-A1 | Blog, detailed explanation (website) | v002 | REVIEW (pre-selection sample) | REVISE, inputs pending | pending | draft-v002.md |
+| TMC-20261114-BLOG-001-A2 | YouTube informational comparison script (embed in A1) | v002 | REVIEW (pre-selection sample) | REVISE, inputs pending | pending | draft-v002.md |
+| TMC-20261114-BLOG-001-A3 | LinkedIn, Yasin native extract | v002 | REVIEW (pre-selection sample) | REVISE, inputs pending | pending | draft-v002.md |
+| TMC-20261114-BLOG-001-A4 | Email, Nadeem one-to-one to schools evaluating proposals | v002 | REVIEW (pre-selection sample) | REVISE, inputs pending | pending | draft-v002.md |
 
 ## Review record
 
@@ -39,10 +39,10 @@
 
 ## Resume handoff
 
-- Latest authoritative files: draft-v001.md, review-v001.md
-- Next action: Yasin records Select, Revise, Hold or Drop in the bucket 1 selection register. If selected, supply the missing inputs, then revise to v002.
+- Latest authoritative files: draft-v002.md, review-v002.md (v001 kept for history, superseded because it predates the writing standards)
+- Next action: Yasin records Select, Revise, Hold or Drop in the bucket 1 selection register. If selected, supply the missing inputs, then revise to v003.
 
 ## Tracker update
 
 Posting date | Platform | Content bucket | Needs and emotions | Delivery type | Topic | Status | Caption | Content ID | Version | File link | Live URL
-not scheduled | Blog, detailed explanation (website), YouTube informational comparison script (e… | 1 | Problem | see assets | B1-01 | REVIEW (pre-selection) | see draft | TMC-20261114-BLOG-001 | v001 | jobs/TMC-20261114-BLOG-001/draft-v001.md | -
+not scheduled | Blog, detailed explanation (website), YouTube informational comparison script (e… | 1 | Problem | see assets | B1-01 | REVIEW (pre-selection) | see draft | TMC-20261114-BLOG-001 | v002 | jobs/TMC-20261114-BLOG-001/draft-v002.md | -

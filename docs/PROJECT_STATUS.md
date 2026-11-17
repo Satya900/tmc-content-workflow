@@ -21,7 +21,7 @@ The knowledge and instruction package is built. End-to-end automation is not com
 - New checker `scripts/lint_copy.py` with tests in `scripts/test_lint_copy.py`. The photo carousel renderer now uses the same restricted-word list.
 - Hashtags are removed from every channel rule. LinkedIn moves to paragraphs of two to four sentences. Editorial QA and the strategist skills take a direct, blunt stance.
 - Interpretations to confirm: one-to-one emails stay exempt from the letter rule ("Hi [name]", no "Dear"). Hedges (may, can, could) become stated conditions or VERIFY, never confident claims.
-- The six bucket 1 pre-selection samples (v001) were written before this standard. All six fail the checker and need a v002 before review.
+- The six bucket 1 pre-selection samples were rewritten as v002 to this standard. All six pass the checker with 0 errors. v001 files stay for history.
 
 ## Update, 14 November 2026: release 0.3.0, bucket 1 reviewed
 
