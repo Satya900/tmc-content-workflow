@@ -1,6 +1,6 @@
 # TMC Content Generation Playbook
 
-Based on: the Content Generation workbook (Content Delivery and Content Distribution sections), adapted for TMC's B2B school audience and evidence rules. The workbook gives B2B, B2C and B2Ch tactics for each channel. **Only the B2B tactics are used.** The answered workbook exercises are in `content-strategy-workbook.md` and ready topics in `topic-bank.md`. The 4D strategy procedure is in `marketing-template-framework.md`. Brand visuals are in `brand-brief.md`.
+Based on: the Content Generation workbook (Content Delivery and Content Distribution sections), adapted for TMC's B2B school audience and evidence rules. The workbook gives B2B, B2C and B2Ch tactics for each channel. **Only the B2B tactics are used.** Bucket-specific delivery and channel decisions (for example `bucket-1-programme-choice-price-value.md`) take precedence over this general playbook. The answered workbook exercises are in `content-strategy-workbook.md` and ready topics in `topic-bank.md`. The 4D strategy procedure is in `marketing-template-framework.md`. Brand visuals are in `brand-brief.md`.
 
 Workbook statistics (platform user counts, ROI figures, survey percentages) are not adopted. They are generic and undated. Never quote them in TMC content without a current, cited source.
 
@@ -168,14 +168,15 @@ Paid advertising setup is out of scope for this release. These playbooks cover o
 - Track: posts, followers or connections, new connections, reach, search appearances.
 
 ### Instagram
-- Role: proof and culture for school audiences. Show programme culture, preparation and real trip moments. Visual storytelling humanises TMC for principals, coordinators and teachers. Parents of client schools may see TOUR posts, but they are not the target.
+- Role: understanding. Show programme culture, preparation and real trip moments, and carry parent-friendly explainer carousels (secondary audience). Parent carousels direct questions to the school coordinator.
 - Carousels explain processes. Story highlights hold case studies, testimonials and FAQs.
-- Use a small set of relevant education hashtags. Reply personally to DMs from school staff and offer a planning conversation.
+- No hashtags (`writing-standards.md`). Reply personally to DMs from school staff and offer a planning conversation.
 - Track: posts, followers, new followers, profile visit to follow conversion, engagement rate, saves and shares.
 
 ### Facebook
 - Business page with complete About, contact and website details.
 - Share guides, case studies and trip documentation that school leaders can use and forward.
+- Reuse parent-facing carousels made for Instagram. No separate Facebook production initially (bucket 1 brief).
 - Participate in educator and principal groups without overt promotion. Parent groups are not a lead source.
 - Track: posts, followers, new followers, reach, engagement rate, video views.
 
@@ -187,11 +188,12 @@ Paid advertising setup is out of scope for this release. These playbooks cover o
 ### WhatsApp
 - Use WhatsApp Business (or the Business API at scale) with greeting, away and quick-reply messages, labels and a programme catalogue.
 - Broadcast lists for school contacts who opted in. Personalised follow-ups after meetings. Status for updates.
-- Never broadcast marketing to parents.
+- Never broadcast marketing to parents. Parent-facing resources go to the school, which shares them in its own parent groups.
 - Consent first. Parent groups during trips are operational channels, not marketing lists.
 - Share square (1080 × 1080) images.
 
 ### SMS
+Deferred (bucket 1 brief) until audience evidence, economics and tracking justify it. When used:
 - Reminders only: meeting confirmations, webinar reminders, post-meeting follow-ups to school contacts who agreed to receive them.
 - Send in business hours. One clear action. No promotions or flash offers.
 
@@ -210,7 +212,7 @@ See Email above and `tmc-newsletter`. Track: database size, emails sent, open ra
 
 ### X (Twitter)
 - Not a lead-generation channel. Consider only after LinkedIn, Instagram, Facebook and email work consistently.
-- If used: real-time education conversations, one or two relevant hashtags, promote blog posts.
+- If used: real-time education conversations, no hashtags, promote blog posts.
 
 ### Offline distribution
 School workshops and presentations, education expos and fairs, brochures and flyers, and personal meetings with decision-makers. Content assets (checklists, case studies, guides) should be printable for these.

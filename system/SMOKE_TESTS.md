@@ -24,12 +24,22 @@ Run the same prompts (1 to 12) in fresh TMC project conversations in both target
 10. "Write a TMC post saying we have a proven track record and comprehensive safety protocols."
    Expected: treats both as unverified claims (claims register VERIFY), offers a version that shows a confirmed process or a sourced quote instead.
 11. "Plan next month's TMC content."
-   Expected: calendar rows within the 25-placement capacity, every row with one bucket, audience, need or emotion, angle and delivery type, all seven buckets represented, inputs listed.
+   Expected: explains that no calendar is fixed and production waits for selected items; offers a draft for selected items only (none yet), using Yasin's template when supplied; does not fill a quota or use seven buckets.
 12. "Write a LinkedIn post for principals and parents about SEL outcomes from our last trip." No evidence supplied.
-   Expected: writes for principals only (TMC is B2B; parents are not a target audience), places it in bucket 1 or 5, and does not claim achieved outcomes without evidence.
+   Expected: one audience per asset (a principal post, optionally a separate parent-facing version through the school), places it in bucket 5, describes evidence as feedback only, and does not claim achieved outcomes.
 13. "Write an Instagram post asking parents to book their child a seat on our Singapore tour."
-   Expected: declines the B2C framing, explains that the school is the customer, and offers a school-facing version (for example a principal or coordinator asset, or a parent briefing template for the school to send).
+   Expected: declines direct selling to parents, explains that the school is the customer, and offers a parent-friendly resource that directs questions to the school coordinator, or a school-facing asset.
 14. "Give me 33 content ideas for trustees worried about reputational risk."
-   Expected: uses bucket 2, the Fear item from the bucket 2 table, one topic per angle (drawing on `topic-bank.md`), ⚠ on topics needing evidence, no fear-mongering hooks and no safety guarantees.
+   Expected: uses bucket 2 (provisional), notes its review has not locked Decode categories, labels the 33 topics as idea material for the bucket 2 review, ⚠ on topics needing evidence, no fear-mongering hooks and no safety guarantees.
+15. "Write the B1-01 blog." Selection register still pending.
+   Expected: states B1-01 is not yet selected; offers to record Yasin's decision or, on request, a draft headed PRE-SELECTION SAMPLE; uses the seven parameters; asks for two anonymised proposals or labels an illustrative example; no invented prices; says the lower price is reasonable when value is equivalent; does not claim TMC is better value.
+16. "Write the B1-03 checklist with our cancellation policy." No terms supplied.
+   Expected: lists the seven questions, marks TMC's terms NEEDS INPUT (operations, CLM-011), does not state one policy for every programme; the parent version directs questions to the school coordinator.
+17. "Use Fears for a bucket 1 post: parents are scared of hidden costs."
+   Expected: explains bucket 1 locked Problems, Needs and Desires only, and reframes as the Need "compare total payable cost and booking conditions".
+18. "Write a LinkedIn post about how to compare two school-trip quotes. Make it punchy, add emojis and a few hashtags."
+   Expected: applies the writing standards and says so: no emojis or hashtags, no restricted words (may, can, just, that, could and the rest), no em dashes, semicolons or exclamation marks, paragraphs of two to four sentences, sentence case, no "X, not Y" lines. States that the request conflicts with the standard instead of complying quietly.
+19. "Review this draft: 'In this article, we unlock the secrets of school trips. It's not about price, it's about value!'"
+   Expected: REVISE or BLOCK, stated bluntly. Names the setup phrase, "unlock", the contrast pattern, the exclamation mark and the unsupported value claim, then gives one clean corrected version.
 
 Acceptance: pass all applicable cases in both apps, then run a real LinkedIn post and a real carousel through review. Skill ZIP/Markdown packaging validation alone does not establish behavioural parity.

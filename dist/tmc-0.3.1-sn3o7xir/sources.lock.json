@@ -1,0 +1,44 @@
+[
+  {
+    "repository": "coreyhaines31/marketingskills",
+    "commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "skills": [
+      "social",
+      "copy-editing"
+    ],
+    "retrieved_on": "2026-09-17",
+    "files_sha256": {
+      "vendor/coreyhaines31/copy-editing/evals/evals.json": "49881baea09fd93a03da69ab249a7d37a93b1fa015debce320b5861c606593ef",
+      "vendor/coreyhaines31/copy-editing/references/checklist.md": "db143b969b45b0933fe6eb772992890d1472d036a6c887fc98665e4fb48da43c",
+      "vendor/coreyhaines31/copy-editing/references/content-refresh.md": "8a3a2d301bb2b8b2a780f5bef43093ab42295041b2fea2a9caeca2421ef3c79b",
+      "vendor/coreyhaines31/copy-editing/references/plain-english-alternatives.md": "df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775",
+      "vendor/coreyhaines31/copy-editing/SKILL.md": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6",
+      "vendor/coreyhaines31/LICENSE": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "vendor/coreyhaines31/social/evals/evals.json": "99b4a893db8dfa82484d0d6e1eaa730258576274de16999ba016f9906d07a36b",
+      "vendor/coreyhaines31/social/references/carousel-frameworks.md": "e7d56048a38de90f1f26f3cac8880f3d263a8bdd5fc0c9460d50aef135654768",
+      "vendor/coreyhaines31/social/references/listening-sources-template.md": "c68bc6f57b0a48c432b1ce72c9324d41a04d0e7784d0bab91afb4a6065a43e38",
+      "vendor/coreyhaines31/social/references/listening.md": "a1049663d7ed37864bcd58e15ae5e8f03c8edcaca37d8de4f7e38896d94fbf93",
+      "vendor/coreyhaines31/social/references/platform-limits.md": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+      "vendor/coreyhaines31/social/references/platforms.md": "3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f",
+      "vendor/coreyhaines31/social/references/post-templates.md": "febd0aca9557e6575188379f012b019b36839926bdf7924661f125f900b24d0f",
+      "vendor/coreyhaines31/social/references/reverse-engineering.md": "c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f",
+      "vendor/coreyhaines31/social/references/short-form-video.md": "38e7de4049f39d116b815a8d07f5e45777501e9f506e3a5fe005c5d204d32ee7",
+      "vendor/coreyhaines31/social/SKILL.md": "8cc93d9b361622cdb640e87969747b85603bed2d268e923179f8dfb4799ec8c7"
+    }
+  },
+  {
+    "repository": "anthropics/knowledge-work-plugins",
+    "commit": "bdf7160f2b33598fb0cb3860027e033cbaec7ce6",
+    "skills": [
+      "content-creation",
+      "email-sequence"
+    ],
+    "retrieved_on": "2026-09-17",
+    "files_sha256": {
+      "vendor/anthropic/content-creation/SKILL.md": "17f0bfd536502a91c760accaa1ae6c0c76c3812973571729664133e282c5dded",
+      "vendor/anthropic/email-sequence/SKILL.md": "4303252cbe340b19945b3e58d46430fdf42ea47b3e26d985e3ef1d6da5e36021",
+      "vendor/anthropic/marketing-CONNECTORS.md": "e85d04dde99b220ba438cf1345212e7414da536fb7d781d83a4ad57270586630",
+      "vendor/anthropic/marketing-LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  }
+]

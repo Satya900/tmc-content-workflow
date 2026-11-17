@@ -3,7 +3,9 @@
 Based on: Understanding The Modern Classroom guide (posting schedule, metrics, KPIs), the Content Generation workbook (measurement metrics, marketing calendar sample), and `system/WORKFLOW.md` (contracted non-video capacity).
 
 ## Posting cadence
-Two numbers exist. Use the contracted capacity for production planning unless the team records a change.
+**No posting calendar is fixed.** The bucket 1 brief (5 November 2026) states that earlier placement quotas are superseded or provisional and that quality and relevance come before quantity. Posting dates, sequence, frequency, accounts, owners and approvals will be agreed in Yasin's forthcoming calendar template, and only for selected items.
+
+The numbers below are kept as reference for capacity conversations, not targets.
 
 | Platform | Contracted non-video capacity per month (WORKFLOW) | Ideal schedule per month (Understanding TMC guide) |
 |---|---|---|
@@ -26,7 +28,8 @@ One row per placement. The first eight columns are the workbook's calendar. The 
 |---|---|
 | Posting date | YYYY-MM-DD |
 | Platform | LinkedIn (Yasin), LinkedIn (company), Instagram, Facebook, Email, Blog, Website, WhatsApp, YouTube, X |
-| Content bucket | 1 to 7 (`content-buckets.md`) |
+| Content bucket | 1 to 5 (`content-buckets.md`) |
+| Topic ID | B1-01 etc., selected items only |
 | Needs and emotions | Fear, Pain point, Problem, Need, Desire, Fantasy + the specific item |
 | Content strategy (delivery type) | Infographic, carousel, text post, blog, video script, email, case study, lead magnet |
 | Content topic | Working title |
@@ -43,7 +46,7 @@ One row per placement. The first eight columns are the workbook's calendar. The 
 
 Example row: `2026-11-12 | LinkedIn (company) | 7 | Problem: comparing two proposals | Text post | Five questions to ask before signing a tour proposal | DRAFT | "Two proposals, same destination, very different trips." | TMC-20261112-LI-001 | Principal | Questions to ask before | consideration | MARKETING | none | v001 jobs/... | -`
 
-A shared sample calendar exists as a Google Sheet linked from the Understanding TMC guide. This workspace has no connection to it. Provide copyable rows when it is not connected.
+Yasin is preparing a calendar template that will replace this format when supplied. A shared sample calendar also exists as a Google Sheet linked from the Understanding TMC guide. This workspace has no connection to it. Provide copyable rows when it is not connected.
 
 ## Metrics by platform
 Collect these monthly. Missing data is unknown, not zero. State the reporting window.
@@ -60,7 +63,9 @@ Collect these monthly. Missing data is unknown, not zero. State the reporting wi
 | Blog | Number of blogs, total views, time spent |
 
 ## Business KPIs
-These decide success. Reach metrics only explain them.
+These decide success. Reach metrics only explain them. Year one counts **Bengaluru schools**.
+
+Primary measures (bucket 1 brief): unique Bengaluru school enquiries, qualified conversations, meetings and programme opportunities. For each, record the source topic ID and channel, audience fit, need and next action. Parent and student engagement is supporting evidence. A lead magnet download signals interest, not a qualified opportunity.
 
 1. **Leads generated:** enquiries and bookings received.
 2. **Qualified school conversations:** conversations with decision-makers at target-segment schools.

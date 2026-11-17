@@ -4,9 +4,11 @@
 - Master idea ID:
 - Source IDs/files:
 - Category: TOUR / MARKETING
-- Audience (one primary) and school segment if targeted:
-- Content bucket (one primary, 1 to 7):
-- Need or emotion (Fear / Pain point / Problem / Need / Desire / Fantasy + item):
+- Audience (one primary; primary school role, or parent/guardian for a school-routed parent version) and school segment if targeted:
+- Market (Bengaluru default):
+- Content bucket (one primary, 1 to 5):
+- Topic ID (for example B1-01) and selection status (Select / Revise / Hold / Drop / pending):
+- Need or emotion (a category the bucket locked + item; bucket 1: Problem / Need / Desire):
 - Content angle (one of 33):
 - Programme (day trip / domestic / international / general):
 - Requested formats/accounts:

@@ -4,7 +4,8 @@ Purpose: make Claude follow The Modern Classroom (TMC) strategy consistently acr
 
 ## Source documents
 The skills are built from three TMC documents (provenance and open decisions in `../docs/SOURCE_DOCUMENTS.md`):
-- **TMC content marketing approval brief** (v1, 15 October 2026): objective, positioning, audience roles and the seven content buckets.
+- **TMC content bucket 1 review brief** (v01, 5 November 2026): five-bucket structure, bucket 1 scope, locked decode, five topics, delivery, lead magnet, roles and the selection gate. Supersedes the seven buckets.
+- **TMC content marketing approval brief** (v1, 15 October 2026): objective and positioning. Its seven buckets are superseded.
 - **Understanding The Modern Classroom**: mission, vision, personas, needs and emotions, buyer questions, keywords, school segments, programmes, SEL values, posting schedule and metrics.
 - **Content Generation workbook**: the 4D content strategy process, 33 content angles, delivery templates (infographics, blogs, video, case studies, lead magnets, email) and channel playbooks.
 
@@ -12,7 +13,7 @@ The skills are built from three TMC documents (provenance and open decisions in 
 Copy the skill folders into the skills directory used by your Claude environment. Each skill has a `SKILL.md`. For desktop apps, use the compiled pack in `../dist/` instead (see `../docs/DESKTOP_SETUP.md`).
 
 ## Operating model
-- TMC strategy is the source of truth. The approval brief governs positioning, audience and buckets.
+- TMC strategy is the source of truth. Bucket review briefs govern buckets, audience and topics. The approval brief governs positioning.
 - The Marketing Template (4D process) provides the content-generation mechanics.
 - External SEO and marketing skills may assist research and editing but never override TMC rules or facts.
 - Human review is mandatory before publishing.
@@ -41,7 +42,7 @@ Brief or source material
 
 ## Content categories
 ### Tour content
-Real TMC trip documentation. Experience-led. Photos determine the story. Usually bucket 5.
+Real TMC trip documentation. Experience-led. Photos determine the story. Usually bucket 3 or 5.
 
 ### Marketing content
 Positioning and qualified school conversations. Strategy determines the story. Approved tour photos support it.
@@ -49,22 +50,23 @@ Positioning and qualified school conversations. Strategy determines the story. A
 ## Audience
 - Decision-makers: school owners, trustees, management, principals
 - Influencers: academic coordinators, HODs, teachers
-- Voices: parents and students
+- Secondary: parents and guardians (fund, consent, judge affordability), reached through the school
+- Tertiary: students, only through school and parent routes
+- Year one: Bengaluru schools
 
-## Seven content buckets (one primary per asset)
-1. Experiential learning and SEL
-2. Safety, governance and parent confidence
-3. Educators and partnerships
-4. Curriculum integration and pedagogy
-5. Evidence of learning and stories from the road
-6. Leadership and vision (Yasin)
-7. School programme planning and decisions
+## Five content buckets (one primary per asset)
+1. Programme choice, price and value (reviewed, topics B1-01 to B1-05 and B1-LM awaiting selection)
+2. Safety processes (provisional)
+3. Service proof (provisional)
+4. School benefits (provisional)
+5. Student development (provisional)
 
 ## Core context references
 | File | Holds |
 |---|---|
 | `tmc-brand-context.md` | Business, mission, vision, positioning, objective, audience roles, programmes, SEL values, voice, internal targets |
-| `content-buckets.md` | The seven buckets with boundaries, evidence rules, and the mapping from earlier themes |
+| `content-buckets.md` | The five buckets, their status, evidence rules, and the mapping from the superseded seven |
+| `bucket-1-programme-choice-price-value.md` | Bucket 1 review: audience, evidence, scope, locked decode, five topics, production guide, lead magnet kit, channels, roles, selection gate and register |
 | `audience-personas.md` | Demographic and psychographic profiles, needs and emotions, buyer questions, keywords, school segments |
 | `content-strategy-workbook.md` | The workbook's exercises answered for TMC as B2B: customer focus, buying committee, personas, bucket research, needs and emotions for all seven buckets, channel roles |
 | `topic-bank.md` | Three worked 33-angle topic sets, 15 blog titles, interview guests, testimonial questions, lead magnets per bucket, calendar sample |

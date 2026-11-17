@@ -7,11 +7,14 @@ Every asset carries these fields where practical. MARKETING assets need all fiel
 | content_id | `TMC-YYYYMMDD-<FORMAT>-NNN`. Formats: LI, FB, IG, CAR, BLOG, NEWS, CASE, LM (lead magnet), WA (WhatsApp), WEB, VID (script) | yes, T |
 | master_idea_id | Shared ID across repurposed versions of one idea | if repurposed |
 | content_category | TOUR, MARKETING | yes, T |
-| target_audience | owner_trustee, management, principal, academic_coordinator, teacher (B2B: always a school role; parents and students are voices, recorded in `voice_source`) | yes, T |
+| target_audience | owner_trustee, management, principal, academic_coordinator, teacher (primary); parent_guardian (secondary, parent-facing versions through school routes); student (tertiary, only through school or parent routes) | yes, T |
 | voice_source | Parent, student, teacher or educator whose words or work appear, with consent reference, or "none" | if voices used |
 | school_segment | A, B, C (`audience-personas.md`) or unknown | if targeted |
-| content_bucket | 1 to 7 (`content-buckets.md`). One primary only | yes, T |
-| customer_emotion | fear, pain_point, problem, need, desire, fantasy + the specific item | yes |
+| content_bucket | 1 to 5 (`content-buckets.md`). One primary only | yes, T |
+| topic_id | Agreed topic ID, for example B1-01 or B1-LM, or "none" | if the bucket has a shortlist, T |
+| selection_status | Select, Revise, Hold, Drop, or pending (from the bucket's selection register). Pending items are pre-selection samples only | if topic_id, T |
+| market | Bengaluru (year one default) or other | yes |
+| customer_emotion | One of the categories the bucket locked (bucket 1: problem, need, desire) + the specific item | yes |
 | content_angle | One of the 33 angles (`marketing-template-framework.md`) | yes |
 | funnel_stage | awareness, consideration, proof, conversion, nurture | yes |
 | programme | day_trip, domestic_tour, international_tour, general | if relevant |
@@ -46,7 +49,9 @@ Reject or rewrite an idea if any answer is yes:
 5. Is it purely promotional?
 6. Does it speak to more than one primary audience?
 7. Does it fit no bucket, or need two buckets to make sense?
-8. Is it written to sell to parents or students (B2C) rather than to help a school role decide?
-9. Does its CTA ask a family, rather than a school, to act?
+8. Does it sell directly to parents or students (B2C), or collect them as sales leads?
+9. Does a parent-facing CTA point anywhere other than the school coordinator or a free resource?
+10. Is it an unselected topic being produced as final content?
+11. Does it use a Decode category the bucket review removed?
 
 If question 1 is yes, rewrite until the piece contains a distinct TMC point of view, verified proof, or school-specific usefulness.

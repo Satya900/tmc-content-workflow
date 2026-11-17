@@ -19,7 +19,7 @@ class PhotoRendererTests(unittest.TestCase):
         self.data = {
             'id': 'TEST', 'version': 'v001', 'title': 'Brussels, one waffle at a time',
             'category': 'TOUR', 'consent_status': 'APPROVED',
-            'post_caption': 'Day 4 in Brussels. A waffle stop that turned into the highlight of the day.',
+            'post_caption': 'Day 4 in Brussels. A waffle stop turned into the highlight of the day.',
             'slides': [
                 {'file': '078A1500.jpg', 'caption': ''},
                 {'file': '078A1391.jpg', 'label': 'Atomium', 'caption': 'First stop, the Atomium.'},

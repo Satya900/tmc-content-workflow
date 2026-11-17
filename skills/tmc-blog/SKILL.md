@@ -24,6 +24,8 @@ For TMC, add verified proof or TMC's perspective before the conclusion where use
 | Detailed explanation | What is / What are + context | What Is Experiential Learning? A Guide for School Leaders |
 | Step-by-step guide | How to + benefit + number of steps | How to Plan a Curriculum-Linked Domestic Tour in 6 Steps |
 
+Bucket 1 agreed blog titles (pending selection): B1-01 detailed explanation "Two school-trip quotations, two prices: when is the higher fee worth paying?"; B1-04 listicle "Five budget decisions to review before reducing your school programme"; B1-05 step-by-step "How to shortlist a school programme in four steps". Keep agreed wording; offer alternatives only if asked.
+
 Also supported: case study (verified only), comparison, pillar page, FAQ, thought leadership (Yasin's views only). Offer 3 to 5 title options using the formula for the chosen type.
 
 ## Required brief
@@ -73,3 +75,9 @@ If an SEO skill or tool is available:
 - Mark unsupported claims.
 - Make the article useful even if the reader never buys from TMC.
 - Title counts must match the content.
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

@@ -5,7 +5,7 @@ description: Use this skill whenever the user asks to create a TMC case study, t
 
 # TMC Case Study
 
-Case studies provide social proof by showing a school's before and after, written by TMC. Testimonials are recommendations in the customer's own words. Both belong to bucket 5 (evidence of learning) or bucket 3 (educators and partnerships), depending on the angle.
+Case studies provide social proof by showing a school's before and after, written by TMC. Testimonials are recommendations in the customer's own words. Most belong to bucket 3 (service proof) or bucket 5 (student development), depending on the angle. Bucket 1 has one deferred case study: "How one school chose its programme within a fixed budget", which needs the actual brief, options, decision, TMC's contribution, specific feedback and permission.
 
 ## Framework (SCAI)
 1. **Situation:** who the school is and its context.
@@ -65,3 +65,9 @@ A single verified case study can be repurposed into: full blog, LinkedIn post, m
 - Anonymise when permission does not allow naming.
 - Preserve quotes accurately.
 - Flag every quantitative claim.
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

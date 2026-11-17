@@ -2,11 +2,11 @@
 
 The content engine for **The Modern Classroom (TMC)**, a Bangalore-based educational experience design partner for schools (day trips, domestic and international educational tours). This repo holds the instructions, brand rules, job records and a few local tools that let Claude (and ChatGPT) plan, draft, review and render TMC's marketing and tour content in a consistent way.
 
-The strategy comes from three TMC documents: the content marketing approval brief (seven content buckets), the Understanding TMC guide (personas, programmes, metrics) and the Content Generation workbook (4D process, 33 angles, delivery templates). See [`docs/SOURCE_DOCUMENTS.md`](docs/SOURCE_DOCUMENTS.md).
+The strategy comes from TMC's documents: the bucket review briefs (five content buckets, reviewed one at a time; bucket 1 done), the Understanding TMC guide (personas, programmes, metrics), the Content Generation workbook (4D process, 33 angles, delivery templates) and the earlier approval brief (positioning). See [`docs/SOURCE_DOCUMENTS.md`](docs/SOURCE_DOCUMENTS.md).
 
 Most of the repo is Markdown that an AI assistant reads, not application code. The Python scripts build a distributable instruction pack and render branded photo carousels offline.
 
-> **Status:** Release `0.2.0` (content buckets, personas and the full content generation playbook). The instruction pack is built. Behaviour has been checked in a single Claude Code session but not yet in both target desktop apps (ChatGPT Desktop and Claude Desktop). Nothing in this repo publishes, schedules or sends content. See [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
+> **Status:** Release `0.3.1` (writing standards added 17 November 2026, five-bucket structure, bucket 1 "programme choice, price and value" reviewed with five topics awaiting selection). The instruction pack is built. Behaviour has been checked in a single Claude Code session but not yet in both target desktop apps (ChatGPT Desktop and Claude Desktop). Nothing in this repo publishes, schedules or sends content. See [`docs/PROJECT_STATUS.md`](docs/PROJECT_STATUS.md).
 
 ## What it covers
 
@@ -27,12 +27,13 @@ Most of the repo is Markdown that an AI assistant reads, not application code. T
 | Monthly performance review and planning | `tmc-monthly-strategist` |
 | Rendering via open-carrusel (optional, legacy) | `tmc-carousel-pipeline` |
 
-Every job loads `tmc-core-context` first. It holds the brand context, the seven content buckets, audience personas, the 4D framework, the content generation playbook, the content taxonomy, measurement and calendar rules, and a claims-register template.
+Every job loads `tmc-core-context` first. It holds the brand context, the five content buckets (with the bucket 1 review reference), audience personas, the 4D framework, the content generation playbook, the content taxonomy, measurement and calendar rules, and a claims-register template.
 
 ## Core rules
 
 - **Every job is TOUR or MARKETING.** In TOUR content the photos tell the real trip story. In MARKETING content a school audience's problem drives the argument.
-- **One audience, one bucket.** Each asset has one primary audience and one of seven content buckets: experiential learning and SEL; safety, governance and parent confidence; educators and partnerships; curriculum integration and pedagogy; evidence of learning and stories from the road; leadership and vision; school programme planning and decisions.
+- **One audience, one bucket.** Each asset has one primary audience and one of five content buckets: programme choice, price and value (reviewed); safety processes; service proof; school benefits; student development (2 to 5 provisional). School decision-makers first, parents secondary through the school, students only through school and parent routes.
+- **Selected items only.** Each bucket has a shortlist of topic IDs (B1-01…) and a selection register. Final copy is produced only for items Yasin selects.
 - **4D for every marketing idea.** Determine the audience, Define the bucket, Decode one need or emotion, Develop one of 33 angles.
 - **Never invent facts.** That covers claims, student outcomes, safety records, prices, testimonials, founder anecdotes, links and media permissions. If evidence is missing, the affected claim is blocked. Unrelated work can still go ahead.
 - **Consent is explicit.** Media permission is `APPROVED`, `DENIED`, `UNKNOWN` or `NOT_APPLICABLE`. `UNKNOWN` never counts as approved, and having a photo file is not consent.
@@ -144,6 +145,6 @@ From [`brand-brief.md`](brand-brief.md):
 
 `vendor/` holds pinned snapshots of selected skills from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) and [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Apache-2.0). Adapted methods live in `system/FORMAT_EXTENSIONS.md`. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) and [`docs/SKILL_RESEARCH.md`](docs/SKILL_RESEARCH.md).
 
-## Out of scope for release 0.2
+## Out of scope for release 0.3
 
 Video filming, editing and rendering (scripts are in scope), paid ad setup, Ready for Umrah content, automatic publishing, scheduling, email sending, analytics collection, and the proposed TMC Content Platform web app (costed, not built).

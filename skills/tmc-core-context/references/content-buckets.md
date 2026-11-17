@@ -1,88 +1,61 @@
 # TMC Content Buckets
 
-Based on: TMC content marketing approval brief, version 1, 15 October 2026. Status: **proposed for team agreement**. The brief asks the team to record approval or amendments. Until a decision is recorded in `docs/SOURCE_DOCUMENTS.md`, use these seven buckets as the working set and note "buckets v1 (proposed)" in plans.
+Based on: TMC content bucket 1 review brief, version 01, 5 November 2026. It sets a **five-bucket structure**, reviewed one bucket at a time. It states that "earlier seven-bucket structures, 42-topic lists and 62-placement quotas are superseded or provisional, not current production commitments". The seven buckets in the approval brief of 15 October 2026 are therefore superseded (mapping below).
+
+## Status of each bucket
+| Bucket | Working scope | Status | Detailed reference |
+|---|---|---|---|
+| 1 | **Programme choice, price and value** | Reviewed shortlist (v01, 5 November 2026), awaiting selection | `bucket-1-programme-choice-price-value.md` |
+| 2 | Safety processes | Provisional scope. Review brief not yet supplied | none yet |
+| 3 | Service proof | Provisional scope. Review brief not yet supplied | none yet |
+| 4 | School benefits | Provisional scope. Review brief not yet supplied | none yet |
+| 5 | Student development (claims and evidence) | Provisional scope. Review brief not yet supplied | none yet |
+
+The scopes of buckets 2 to 5 come only from the bucket 1 brief's boundary note ("detailed safety processes belong in bucket 2, detailed service proof in bucket 3, school benefits in bucket 4, development claims in bucket 5"). Their names, audiences, decode choices and topics are **not yet decided**. Record each bucket's review brief as its own reference file when it arrives.
 
 ## Rules
-- TMC is B2B. Every bucket is written for a school role. Needs and emotions for each bucket: `content-strategy-workbook.md`, section 4. Starting topics: `topic-bank.md`.
-- Every asset gets **exactly one primary bucket**. A secondary bucket may be noted for planning but never changes the asset's argument.
-- Founder voice (Yasin) is bucket 6 when the asset is about his judgment or vision. His voice can also carry content in any other bucket. Record the bucket by topic, and the account (Yasin or company) separately.
-- A bucket sets the content boundary, not the format. Any bucket can become a LinkedIn post, carousel, blog, email or case study.
-- Evidence rules below are minimums. The claims register and `system/WORKFLOW.md` permission rules still apply.
+- Every asset gets **exactly one primary bucket** and, once topics are agreed, a **topic ID** (`B<bucket>-<NN>`, for example `B1-01`; lead magnets `B<bucket>-LM`).
+- Produce detailed content only for items **selected** in that bucket's selection register. Production starts after all five bucket reviews and Yasin's return of selected items. See the production gate in the bucket reference.
+- Each bucket chooses its own Decode categories. Use only the categories that bucket's review locked. Do not force all six.
+- Quality and relevance take priority over quantity. No monthly quota applies to any bucket.
+- Founder voice (Yasin) is a voice, not a bucket. It can carry content in any bucket. Record the account (Yasin or company) separately.
+- A bucket sets the content boundary, not the format.
+- When a topic touches another bucket's scope, give it the boundary sentence and leave the detail to that bucket (for example, B1-04 says safety requirements are preserved; the safety process itself belongs in bucket 2).
 
-## The seven buckets
+## Evidence rules that apply now
+Until buckets 2 to 5 have their own review briefs, use these minimum rules:
 
-### 1. Experiential learning and SEL
-- **Boundary:** explain student development, learning through experience and observable behaviours. SEL means social-emotional learning.
-- **Illustrative topic:** What would demonstrate collaboration during a field task?
-- **Draws on:** the seven SEL values in `tmc-brand-context.md`.
-- **Primary audience:** principals and academic leaders. Parent-facing explainers are made for the school to use.
-- **Evidence rule:** describe what a programme is designed to develop and which behaviours a teacher could observe. Do not state that students achieved an outcome unless bucket 5 evidence exists.
-- **Typical funnel stage:** awareness, consideration.
-- **Avoid:** vague "life-changing" claims, SEL as a buzzword without a behaviour attached.
-
-### 2. Safety, governance and parent confidence
-- **Boundary:** show preparation, responsibilities, escalation and parent communication through verified processes.
-- **Illustrative topic:** What should a principal verify before programme approval?
-- **Primary audience:** principals, management, trustees. Parent communication pieces are tools for the school to send.
-- **Evidence rule:** describe only processes TMC has confirmed it runs. Never claim a safety record, zero incidents, guarantees or response times without an approved claim. General due-diligence advice for schools needs no TMC claim.
-- **Typical funnel stage:** consideration.
-- **Avoid:** fear-based hooks, implied guarantees, "safety is our top priority" as a bare line.
-
-### 3. Educators and partnerships
-- **Boundary:** use educator voices, peer lessons and school partnerships to explain decisions and share useful insights.
-- **Illustrative topic:** How does a principal choose experiences worth timetable space?
-- **Primary audience:** principals and academic leaders.
-- **Evidence rule:** a named educator, school or quote needs a source and permission to name. Without permission, anonymise or write the insight in TMC's own voice.
-- **Typical funnel stage:** awareness, consideration, proof.
-- **Avoid:** invented educator quotes, implying a partnership that is not confirmed.
-
-### 4. Curriculum integration and pedagogy
-- **Boundary:** connect learning objectives with preparation, field activities, reflection, facilitation and assessment.
-- **Illustrative topic:** From a classroom objective to a field task and student reflection.
-- **Primary audience:** academic leaders, teachers, principals.
-- **Evidence rule:** claims that a programme is aligned to a specific board (CBSE, ICSE, IB, Cambridge, state) or chapter need verification. Generic pedagogy guidance needs none.
-- **Typical funnel stage:** consideration.
-- **Avoid:** academic jargon for its own sake, unverified alignment claims.
-
-### 5. Evidence of learning and stories from the road
-- **Boundary:** show activities, student work and educator observations. Match every outcome claim to available evidence.
-- **Illustrative topic:** One student observation and the learning task behind it.
-- **Primary audience:** principals and trustees (proof). TOUR documentation serves the client school, which shares it with its own parents.
-- **Evidence rule:** strictest bucket. Every outcome needs a source: student work, educator observation, feedback record or verified quote. Media needs recorded consent. TOUR photo posts usually sit here.
-- **Typical funnel stage:** proof, nurture.
-- **Avoid:** converting enjoyment into learning impact, invented student stories, identifying students without permission.
-
-### 6. Leadership and vision
-- **Boundary:** Yasin's judgment, experience and perspective on educational choices. Founder voice also applies across other buckets.
-- **Illustrative topic:** Which trade-offs should shape an educational programme?
-- **Primary audience:** owners, trustees, principals.
-- **Evidence rule:** only Yasin's supplied views, notes, voice notes or approved past statements. Never invent a memory, anecdote, quote or opinion. If no notes exist, offer a non-anecdotal draft clearly marked for his input.
-- **Typical funnel stage:** awareness.
-- **Avoid:** generic thought-leadership platitudes, a fake founder voice.
-
-### 7. School programme planning and decisions
-- **Boundary:** help schools compare value, plan budgets, assign workload, secure approval and select providers.
-- **Illustrative topic:** How should a school compare two different proposals?
-- **Primary audience:** principals, management, trustees, coordinators who run the process.
-- **Evidence rule:** no prices, discounts or package claims without approval. Planning frameworks, checklists and comparison criteria need no TMC claim.
-- **Typical funnel stage:** consideration, conversion.
-- **Avoid:** sales pitches dressed as advice, criticism of named competitors.
-
-## Mapping from the earlier marketing themes
-Older job records and plans use the previous themes. Map them as follows when resuming work.
-
-| Earlier theme | Bucket |
+| Bucket | Minimum evidence rule |
 |---|---|
-| Parent Confidence | 2 |
+| 1 | See the bucket 1 reference. No live prices, availability or savings claims without operations approval. No claim that TMC is better value without substantiation |
+| 2 | Describe only processes TMC has confirmed it runs. No safety record, guarantees or response times without an approved claim |
+| 3 | Service proof needs a source: a named school or quote needs permission, and feedback must be real and recorded |
+| 4 | General statements about what schools gain need no TMC claim. A claim that TMC delivered a benefit needs evidence |
+| 5 | Strictest. Student development evidence is currently mainly feedback, not measured outcomes. State it as feedback. Never claim a measured outcome without data |
+
+## Mapping from the superseded seven buckets
+Older job records, `content-strategy-workbook.md` and `topic-bank.md` use the seven-bucket numbering. Map them provisionally when resuming or reusing material:
+
+| Seven-bucket version (15 October) | Five-bucket version (5 November) |
+|---|---|
+| 7. School programme planning and decisions | 1 (price, value, comparison, budget topics) |
+| 2. Safety, governance and parent confidence | 2 |
+| 3. Educators and partnerships | 3 (service proof) where it shows TMC's work, otherwise to be decided |
+| 4. Curriculum integration and pedagogy | 4 (school benefits), to be confirmed |
+| 1. Experiential learning and SEL | 5 (development) or 4 (benefits), by topic, to be confirmed |
+| 5. Evidence of learning and stories from the road | 5 (development evidence) or 3 (service proof), by topic |
+| 6. Leadership and vision | A voice (Yasin) across buckets, not a bucket |
+
+### Earlier marketing themes (before the seven buckets)
+| Earlier theme | Five-bucket version |
+|---|---|
+| Parent Confidence | 2, or 1 for cost and booking questions |
 | Safety & Operational Excellence | 2 |
-| Student Outcomes & SEL | 1 (design and behaviours) or 5 (evidenced outcomes) |
-| School Competitive Edge | 7 or 6, by topic |
-| Yasin's Perspective | 6 |
-| Educational travel design / customisation | 4 or 7, by topic |
-| Proof, case studies and real trip evidence | 5 |
+| Student Outcomes & SEL | 5 |
+| School Competitive Edge | 4 |
+| Yasin's Perspective | Yasin's voice in any bucket |
+| Educational travel design / customisation | 1 (programme choice) or 4 |
+| Proof, case studies and real trip evidence | 3 or 5 |
 
-## Changes in this version
-The brief proposes four changes from the earlier set: broaden the safety bucket to include governance, strengthen evidence requirements within road stories, clarify the founder voice, and add bucket 7.
-
-## Suggested monthly balance
-No ratio has been approved. As a starting hypothesis for planning, give every bucket at least one placement a month, weight buckets 2, 5 and 7 towards international-tour campaigns, and let `tmc-monthly-strategist` adjust from data.
+## TOUR content
+TOUR photo posts document a real trip. They usually support bucket 3 (service proof: how TMC runs a trip) or bucket 5 (student experience shown, not claimed). Record the bucket by what the post shows.

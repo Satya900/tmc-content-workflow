@@ -3,19 +3,19 @@
 Based on: Understanding The Modern Classroom guide (customer profiling, content bucket research, needs and emotions tables). Audience roles follow the approval brief (15 October 2026). These are planning personas, not facts about any real school or person. Never quote them as research findings.
 
 ## Customer focus: B2B
-TMC is B2B: the school is the customer. Not B2C (selling to families) and not B2Ch (selling through channel partners). The full answer and its rules are in `content-strategy-workbook.md`, section 1.
+TMC is B2B: the school is the customer. Not B2C (selling to families) and not B2Ch (selling through channel partners). TMC is **B2B-led**: the school is the customer and school decision-makers come first. Parents and guardians are a secondary audience because they fund participation, give consent and judge affordability. They are reached through school routes (material supplied to the school, school-led sharing) and parent-friendly carousels, and parent material directs questions to the school coordinator. Students are a tertiary audience, reached only through school and parent routes. Parents and students are never collected as sales leads. Year one targets Bengaluru schools.
 
 ## Segments
 | Segment | Who | Role in a decision | Can be an asset's target audience? |
 |---|---|---|---|
 | Primary | School owners, trustees, management, principals, administrators | Decide and approve | Yes |
 | Primary (influencers) | Academic coordinators, HODs, teachers | Evaluate, champion internally, deliver | Yes |
-| Secondary (voice) | Parents | Influence and enable school decisions. Their voices help schools assess TMC | No. Voice and evidence only |
-| Tertiary (voice) | Students | End beneficiaries. Their voices and work are evidence of learning | No. Voice and evidence only |
+| Secondary | Parents and guardians | Fund participation, give consent, judge affordability and suitability | Yes, for parent-facing versions reached through the school. Never as sales leads |
+| Tertiary | Students | Interests, readiness and experience influence participation | Only through school and parent routes (for example an activity-choice sheet). Never as sales leads |
 
-Parent and student profiles below are kept so writers understand the people whose experience schools care about. They are never a sales target. Parent-facing material (a briefing pack, a consent explainer) is made for the school to send, so its audience in the job record is still the school role who commissions it, usually the principal.
+Primary audience members must have actual authority, influence and programme need (bucket 1 brief). Personal age, income, lifestyle and hobbies are unspecified in TMC's own decisions: the tables below are planning estimates from the Understanding TMC guide, not facts. Parent-facing material directs questions to the school coordinator.
 
-The buying committee, B2B account profile, role-by-role psychographics and personas (Approver, Champion, Gatekeeper, Planner, Trip Lead) are in `content-strategy-workbook.md`, section 2. Needs and emotions for each of the seven buckets are in section 4.
+The buying committee, B2B account profile, role-by-role psychographics and personas (Approver, Champion, Gatekeeper, Planner, Trip Lead) are in `content-strategy-workbook.md`, section 2. Section 4 holds needs and emotions written for the superseded seven buckets (idea material only).
 
 ## Demographic and psychographic profile
 | Attribute | Primary: school leaders and educators | Secondary (voice): parents | Tertiary (voice): students |
@@ -34,7 +34,7 @@ The buying committee, B2B account profile, role-by-role psychographics and perso
 | Behaviours | Decision-makers and strategic planners focused on school improvement | Support their child's education, value communication with teachers | Energetic, quick learners, influenced by peers and media, enjoy hands-on learning |
 
 ## Needs and emotions (Decode)
-Six categories, from negative to positive: Fears, Pain Points, Problems, Needs, Desires, Fantasies. Pick one for each asset (the `customer_emotion` field). The emotion must belong to the asset's school-role audience. Use the per-bucket tables in `content-strategy-workbook.md`, section 4, first. The parent and student columns below explain what school leaders must answer for; they are not emotions to target directly.
+Six categories, from negative to positive: Fears, Pain Points, Problems, Needs, Desires, Fantasies. Pick one for each asset (the `customer_emotion` field). Each bucket locks its own categories in its review (bucket 1 uses only Problems, Needs and Desires). Use that bucket's locked decode first. The tables below are background.
 
 | Category | Question | School leaders and educators | Parents | Students |
 |---|---|---|---|---|
@@ -59,7 +59,7 @@ The school-leader column drives content. Parent and student questions are questi
 Each buyer question is a ready content topic. Answering one honestly, with TMC's actual process, is usually stronger than a generic tip list. Questions about cost, ROI, measurement, qualifications and supervision touch claims: check the claims register first.
 
 ## Keywords by segment
-Use for SEO briefs, hashtags and vocabulary checks. They are starting points, not mandatory insertions.
+Use for SEO briefs and vocabulary checks. They are starting points, not mandatory insertions.
 
 - **School leaders and educators:** experiential learning, educational tours, real-world exposure, hands-on learning, student development, innovative education, curriculum integration, leadership skills, confidence building, future-ready skills.
 - **School buyers (B2B core list):** see the top 10 in `content-strategy-workbook.md`, section 3.

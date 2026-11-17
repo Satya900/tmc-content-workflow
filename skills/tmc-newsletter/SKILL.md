@@ -30,6 +30,8 @@ One email, one focus. Do not turn it into a generic monthly roundup unless expli
 ## Audiences and segments
 TMC is B2B: marketing email goes to school contacts only. Segment by role (owner or trustee, management, principal, coordinator, teacher), school segment and interaction level. Parent emails during a trip are operational communication on the school's behalf, not marketing. Never add parents to a marketing list.
 
+One-to-one sales emails from Nadeem (for example sharing the B1-01 article with a school evaluating proposals, or the B1-04 resource when a buyer raises budget limits) are short, personalised to the school, contact and stage, link one resource and ask one question. Qualification asks for grade, approximate group size, dates and budget. No pressure language.
+
 ## Workflow
 1. Define the audience segment and content bucket.
 2. Define one goal.
@@ -63,3 +65,9 @@ Direct, useful, personal, brief, calm. No brochure language.
 - Claim flags
 
 Drafting an email is not sending it. Never claim email-client testing from a browser preview.
+
+## Bucket review items
+If the request names a topic ID (for example B1-01) or falls inside a reviewed bucket, follow that bucket's reference: item spec, required inputs, production guide and selection register. Produce final copy only for selected items. For an unselected item, produce a draft only on explicit request, headed `PRE-SELECTION SAMPLE: not for publication`.
+
+## Writing standards
+Follow `writing-standards.md` (shared context) for every line of copy: run its reasoning framework before drafting and its self-check after. Run `python3 scripts/lint_copy.py <draft file>` where a terminal is available and fix every error. Where it is not, apply the self-check by hand. Record the draft's weakest point bluntly in the review file.

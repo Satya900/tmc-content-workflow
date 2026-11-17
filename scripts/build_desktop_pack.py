@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.2.0"
+VERSION = "0.3.1"
 FORMAT_SKILLS = [
     "tmc-content-strategist", "tmc-linkedin", "tmc-social-post",
     "tmc-marketing-carousel", "tmc-tour-photo-dump", "tmc-photo-selector",
@@ -22,7 +22,9 @@ FORMAT_SKILLS = [
 ]
 CONTEXT_FILES = [
     "skills/tmc-core-context/references/tmc-brand-context.md",
+    "skills/tmc-core-context/references/writing-standards.md",
     "skills/tmc-core-context/references/content-buckets.md",
+    "skills/tmc-core-context/references/bucket-1-programme-choice-price-value.md",
     "skills/tmc-core-context/references/audience-personas.md",
     "brand-brief.md",
     "skills/tmc-core-context/references/content-strategy-workbook.md",
